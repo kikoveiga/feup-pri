@@ -12,8 +12,6 @@ import re
 class RotaRomanicoScraper:
     def __init__(self):
         options = Options()
-        # Uncomment the line below to run Firefox in headless mode (no GUI)
-        # options.headless = True
         self.driver = webdriver.Firefox(service=GeckoService(GeckoDriverManager().install()), options=options)
 
     def scrape(self):
