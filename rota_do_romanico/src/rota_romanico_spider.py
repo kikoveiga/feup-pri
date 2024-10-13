@@ -21,7 +21,7 @@ class RotaRomanicoScraper:
         self.driver.get(start_url)
         
         # Allow time for the page to fully load
-        time.sleep(2)
+        time.sleep(5)
         
         # Extract monument links from the main page
         monument_divs = self.driver.find_elements(By.CSS_SELECTOR, "div.col-sm-6.col-md-4.col-lg-4.col-xl-3.p-0.monument-bg")
@@ -112,23 +112,23 @@ class RotaRomanicoScraper:
 
                 if monument_info == "Classificação:":
                     if "Tipo" in monument_data:
-                        monument_data["Estatuto"] = monument_paragraph.find_element(By.CSS_SELECTOR, 'span:nth-of-type(2)').text.strip()
+                        monument_data["Estatuto Patrimonial"] = monument_paragraph.find_element(By.CSS_SELECTOR, 'span:nth-of-type(2)').text.strip()
                     else:
-                        monument_data["Tipo"] = "Não tem tipo"
+                        monument_data["Tipo"] = "Tipo não especificado"
                         monument_data["Estilo"] = "Românico"
-                        monument_data["Estatuto"] = monument_paragraph.find_element(By.CSS_SELECTOR, 'span:nth-of-type(2)').text.strip()
+                        monument_data["Estatuto Patrimonial"] = monument_paragraph.find_element(By.CSS_SELECTOR, 'span:nth-of-type(2)').text.strip()
 
-        if "Tipo" not in monument_data and "Estatuto" not in monument_data:
-            monument_data["Tipo"] = "Não tem tipo"
+        if "Tipo" not in monument_data and "Estatuto Patrimonial" not in monument_data:
+            monument_data["Tipo"] = "Tipo não especificado"
             monument_data["Estilo"] = "Românico"
-            monument_data["Estatuto"] = "Não foi ainda classificado"
+            monument_data["Estatuto Patrimonial"] = "Estatuto patrimonial não especificado"
             
-        elif "Estatuto" not in monument_data:
-            monument_data["Estatuto"] = "Não foi ainda classificado"
+        elif "Estatuto Patrimonial" not in monument_data:
+            monument_data["Estatuto Patrimonial"] = "Estatuto patrimonial não especificado"
 
         monument_data["Localizacao"] = monument_location
         monument_data["Coordenadas"] = monument_coordenates
-        monument_data["Imagem"] = image_url
+        monument_data["URL Imagem"] = image_url
 
         filename = os.path.join("rota_romanico_files", f"{monument_name}.json")
         with open(filename, 'w', encoding='utf-8') as json_file:
@@ -137,6 +137,3 @@ class RotaRomanicoScraper:
 if __name__ == "__main__":
     scraper = RotaRomanicoScraper()
     scraper.scrape()
-
-
-# TODO: Get rid of the \n in the description of the monuments
