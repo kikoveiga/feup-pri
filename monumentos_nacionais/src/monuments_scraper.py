@@ -3,6 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import urllib.parse
+import re
 
 # Scrape district links from the main page
 def scrape_district_links(main_url):
@@ -20,19 +21,32 @@ def scrape_district_links(main_url):
         return []
 
 # Scrape monument links from a district page
-def scrape_monument_links(district_url):
+def scrape_monument_links(district_url, scrape_subcategories=True):
     response = requests.get(district_url)
     if response.status_code == 200:
         soup = BeautifulSoup(response.text, 'html.parser')
         monument_links = []
+        
+        # First, scrape monuments directly from the district page
         for category_group in soup.find_all('div', class_='mw-category-group'):
             for a_tag in category_group.find_all('a', href=True):
                 full_url = "https://pt.wikipedia.org" + a_tag['href']
                 monument_links.append(full_url)
+        
+        # If allowed, check for subcategories and follow the links to scrape their monuments
+        if scrape_subcategories:
+            subcategory_section = soup.find('div', id='mw-subcategories')
+            if subcategory_section:
+                for subcategory in subcategory_section.find_all('a', href=True):
+                    subcategory_url = "https://pt.wikipedia.org" + subcategory['href']
+                    # Scrape monument links from the subcategory page, but don't scrape further subcategories
+                    monument_links.extend(scrape_monument_links(subcategory_url, scrape_subcategories=False))
+        
         return monument_links
     else:
         print(f"Failed to retrieve {district_url}. Status code: {response.status_code}")
         return []
+
 
 # Scrape monument details from a monument page
 def scrape_monument_details(monument_url):
@@ -116,7 +130,9 @@ def scrape_monument_details(monument_url):
             if 'noprint' in p_tag.get('class', []) or 'navbar' in p_tag.get('class', []):
                 continue
             
-            description += p_tag.get_text().strip() + "\n"
+            description_text = re.sub(r'\[\d+\]', '', p_tag.get_text().strip())  # Remove [n] references
+            description += description_text + "\n"
+
 
         monument_data['Descricao'] = description.strip()
 
@@ -125,7 +141,10 @@ def scrape_monument_details(monument_url):
         if history_section:
             history_content = history_section.find_next('p')
             if history_content:
-                monument_data['Historia'] = history_content.get_text().strip()
+                monument_data['Historia'] = re.sub(r'\[\d+\]', '', history_content.get_text().strip())  # Remove [n] references
+
+
+
 
         # Save URL of monument image  
         image_tag = infobox_table.find('img') if infobox_table else (infobox_div.find('img') if infobox_div else None)
@@ -144,7 +163,8 @@ def save_monument_data(district_name, monument_data):
     district_name = urllib.parse.unquote(district_name).replace('_', ' ').replace(':', '').strip()
 
     # Create a folder disctrict if dont exist
-    folder_path = os.path.join('districts', district_name)
+    base_dir = os.path.join('monumentos_nacionais', 'districts')
+    folder_path = os.path.join(base_dir, district_name)
     os.makedirs(folder_path, exist_ok=True)
 
     # Create a valid JSON filename
