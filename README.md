@@ -13,5 +13,5 @@ touristic purposes.
 
 ### How the code works
 
-&nbsp;&nbsp;&nbsp;&nbsp;As we explored the websites, we found that each one had a different HTML structure and, in some cases, even the same website had different HTML structures for each monument. To address this, we developed three distinct web scrapers: one for [**Rota do Românico**](./rota_do_romanico/project_contribution.md); one for [**Wikipedia - List of National Monuments**](./monumentos_nacionais/project_contribution.md); and one for [Wikipedia](). Each link provides a detailed explanation of how the data collection process and pipeline were implemented for each source.
+&nbsp;&nbsp;&nbsp;&nbsp;As we explored the websites, we found that each one had a different HTML structure and, in some cases, even the same website had different HTML structures for each monument. To address this, we developed three distinct web scrapers: one for [**Rota do Românico**](./rota_do_romanico/project_contribution.md); one for [**Wikipedia - List of National Monuments**](./monumentos_nacionais/project_contribution.md); and one for [Wikipedia - List of Public Interest Real Estate](./imoveis_interesse_publico/). Each link provides a detailed explanation of how the data collection process and pipeline were implemented for each source.
 
