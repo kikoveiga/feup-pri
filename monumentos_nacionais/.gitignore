@@ -1,2 +1,4 @@
 # Ignore JSON files with scraped data
 districts/
+Imoveis_interesse_pub/
+analysis/
