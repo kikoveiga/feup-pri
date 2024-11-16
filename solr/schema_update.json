@@ -9,6 +9,12 @@
                 },
                 "filters": [
                     {
+                        "class": "solr.SynonymFilterFactory",
+                        "synonyms": "synonyms.txt",
+                        "ignoreCase": true,
+                        "expand": true
+                    },
+                    {
                         "class": "solr.ASCIIFoldingFilterFactory",
                         "preserveOriginal": true
                     },
@@ -22,6 +28,12 @@
                     "class": "solr.StandardTokenizerFactory"
                 },
                 "filters": [
+                    {
+                        "class": "solr.SynonymFilterFactory",
+                        "synonyms": "synonyms.txt",
+                        "ignoreCase": true,
+                        "expand": true
+                    },
                     {
                         "class": "solr.ASCIIFoldingFilterFactory",
                         "preserveOriginal": true
@@ -116,9 +128,9 @@
             "name": "Coordenadas",
             "type": "location_rpt",
             "stored": true,
-            "indexed": true
-        },
-        */
+            "indexed": true,
+            "required": false
+        },*/
         {
             "name": "URL Imagem",
             "type": "string",

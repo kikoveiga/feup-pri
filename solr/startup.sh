@@ -11,4 +11,4 @@ curl -X POST -H 'Content-type:application/json' \
     http://localhost:8983/solr/monuments/schema
 
 # Populate collection using mapped path inside container.
-sudo docker exec -it monuments bin/post -c monuments /data/combined_data.json
+sudo docker exec -it monuments bin/post -c monuments /data/data.json
