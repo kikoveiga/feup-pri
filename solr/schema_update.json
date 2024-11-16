@@ -31,13 +31,45 @@
                     },
                     {
                         "class":"solr.PortugueseLightStemFilterFactory"
+                    }   
+                ]
+            }
+        },
+        {
+            "name": "string_accent_insensitive",
+            "class": "solr.TextField",
+            "indexAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.KeywordTokenizerFactory"
+                },
+                "filters": [
+                    {
+                        "class": "solr.ASCIIFoldingFilterFactory",
+                        "preserveOriginal": true
+                    },
+                    {
+                        "class": "solr.LowerCaseFilterFactory"
+                    }
+                ]
+            },
+            "queryAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.KeywordTokenizerFactory"
+                },
+                "filters": [
+                    {
+                        "class": "solr.ASCIIFoldingFilterFactory",
+                        "preserveOriginal": true
+                    },
+                    {
+                        "class": "solr.LowerCaseFilterFactory"
                     }
                 ]
             }
         }
     ],
     "add-field": [
-        
+
         {
             "name": "Nome",
             "type": "text_general_accent_insensitive",
@@ -58,19 +90,19 @@
         },
         {
             "name": "Tipo",
-            "type": "string",
+            "type": "string_accent_insensitive",
             "stored": true,
             "indexed": true
         },
         {
             "name": "Estilo",
-            "type": "string",
+            "type": "string_accent_insensitive",
             "stored": true,
             "indexed": true
         },
         {
             "name": "Estatuto Patrimonial",
-            "type": "string",
+            "type": "string_accent_insensitive",
             "stored": true,
             "indexed": true
         },
