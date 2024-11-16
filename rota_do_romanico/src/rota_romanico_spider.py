@@ -129,6 +129,7 @@ class RotaRomanicoScraper:
         monument_data["URL Imagem"] = image_url
 
         filename = os.path.join("rota_romanico_files", f"{monument_name}.json")
+        os.makedirs(os.path.dirname(filename), exist_ok=True)
         with open(filename, 'w', encoding='utf-8') as json_file:
             json.dump(monument_data, json_file, ensure_ascii=False, indent=4)
 

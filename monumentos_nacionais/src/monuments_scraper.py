@@ -46,6 +46,21 @@ def scrape_monument_links(district_url, scrape_subcategories=True):
     else:
         print(f"Failed to retrieve {district_url}. Status code: {response.status_code}")
         return []
+    
+# Helper function to convert DMS to decimal
+def dms_to_decimal(coord_string):
+    match = re.match(r"(\d+)° (\d+)′ (\d+)″ ([NSEO])", coord_string)
+    if not match:
+        return None
+
+    degrees, minutes, seconds, direction = match.groups()
+    decimal = int(degrees) + int(minutes) / 60 + int(seconds) / 3600
+
+    # Convert to negative for south or west
+    if direction in ['S', 'O']:
+        decimal = -decimal
+
+    return round(decimal, 6)
 
 
 # Scrape monument details from a monument page
@@ -90,7 +105,13 @@ def scrape_monument_details(monument_url):
                     if "Estilo" in header_text:
                         monument_data['Estilo'] = value_text
                     if "Coordenadas" in header_text:
-                        monument_data['Coordenadas'] = value_text
+                        # Attempt to parse and convert coordinates
+                        coordinate_parts = re.findall(r"(\d+° \d+′ \d+″ [NSEO])", value_text)
+                        if len(coordinate_parts) == 2:  # Expecting two parts: latitude and longitude
+                            lat = dms_to_decimal(coordinate_parts[0])
+                            lon = dms_to_decimal(coordinate_parts[1])
+                            if lat is not None and lon is not None:
+                                monument_data['Coordenadas'] = f"{lat}, {lon}"
 
         # Infobox with nexted tables
         infobox_div = soup.find('div', class_='infobox_v2')
@@ -113,7 +134,13 @@ def scrape_monument_details(monument_url):
                         if "Estilo" in header_text:
                             monument_data['Estilo'] = value_text
                         if "Coordenadas" in header_text:
-                            monument_data['Coordenadas'] = value_text
+                            # Attempt to parse and convert coordinates
+                            coordinate_parts = re.findall(r"(\d+° \d+′ \d+″ [NSEO])", value_text)
+                            if len(coordinate_parts) == 2:  # Expecting two parts: latitude and longitude
+                                lat = dms_to_decimal(coordinate_parts[0])
+                                lon = dms_to_decimal(coordinate_parts[1])
+                                if lat is not None and lon is not None:
+                                    monument_data['Coordenadas'] = f"{lat}, {lon}"
 
         # Get description
         description = ""

@@ -45,6 +45,7 @@ class Spider(scrapy.Spider):
             fileName = f"{titulo.lower().replace(" ", "_")}.json"
 
             file_path = os.path.join('filesv2', fileName)
+            os.makedirs(os.path.dirname(file_path), exist_ok=True)
             fd = open(file_path, "w", encoding="utf-8")
             
             fd.write("{\n" + f'"Nome": "{titulo}",\n')
