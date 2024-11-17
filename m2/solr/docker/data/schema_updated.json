@@ -69,7 +69,7 @@
             },
             "queryAnalyzer": {
                 "tokenizer": {
-                    "class": "solr.KeywordTokenizerFactory"
+                    "class": "solr.StandardTokenizerFactory"
                 },
                 "filters": [
                     {
