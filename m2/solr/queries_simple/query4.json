@@ -1,0 +1,8 @@
+{
+    "query": "Descricao:careca",
+    "fields": "Nome, Estilo, Tipo, Descricao",
+    "params": {
+        "defType": "edismax"
+    }
+
+}

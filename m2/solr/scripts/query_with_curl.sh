@@ -1,8 +1,18 @@
 #!/bin/bash
 
+# Usage: bash query_with_curl.sh <schema_type>
+SCHEMA_TYPE=$1
+
+# Validate input
+if [[ "$SCHEMA_TYPE" != "simple" && "$SCHEMA_TYPE" != "updated" ]]; then
+    echo "Error: Invalid schema type. Use 'simple' or 'updated'."
+    exit 1
+fi
+
 # Directories for queries and results
-QUERY_DIR="queries"
-RESULTS_DIR="results"
+BASE_DIR=".."
+QUERY_DIR="$BASE_DIR/queries_$SCHEMA_TYPE"
+RESULTS_DIR="$BASE_DIR/results"
 
 # Create results directory if it doesn't exist
 mkdir -p "$RESULTS_DIR"

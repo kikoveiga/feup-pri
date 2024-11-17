@@ -1,0 +1,8 @@
+{
+    "query": "Historia:(reconquista OR \"idade média\")",
+    "fields": "Nome, Historia, Tipo, Localizacao",
+    "params": {
+        "defType": "edismax",
+        "qf": "Nome^2 Historia^3 Tipo^2 Localizacao^1"
+    }
+}

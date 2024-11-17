@@ -18,7 +18,7 @@ To set up the Solr environment and index the monument data:
 
 1. **Navigate to the `m2/solr` directory:**
    ```bash
-   cd m2/solr 
+   cd m2/solr/scripts 
    ```
 
 2. **Start Solr, configure the schema, and inde the data:**
@@ -36,7 +36,7 @@ To set up the Solr environment and index the monument data:
 
 1. **Run the queries script:**
    ```bash
-   bash query_with_curl.sh
+   bash query_with_curl.sh <simple> or <updated>
    ```
 
     - Reads all `.json` query files from the `queries/` .
