@@ -1,4 +1,10 @@
 {
-    "query": "(Nome:Igreja OR Tipo:igreja) AND Localizacao:Porto",
-    "fields": "Nome, Localizacao, Descricao, Historia, Tipo, Estilo"
+    "query": "Igreja Porto",
+    "params": {
+        "defType": "edismax",
+        "qf": "Nome Descricao Historia Tipo Estilo Localizacao",
+        "fl": "id, Nome, Localizacao, Descricao, Historia, Tipo, Estilo, score",
+        "q.op": "AND",
+        "rows": 20
+    }
 }

@@ -1,5 +1,10 @@
 {
-    "query": "Historia:(reconquista OR \"idade média\")",
-    "fields": "Nome, Localizacao, Descricao, Historia, Tipo, Estilo"
+    "query": "Idade Média Porto",
+    "params": {
+        "defType": "edismax",
+        "qf": "Nome Descricao Historia Tipo Estilo Localizacao",
+        "fl": "id, Nome, Localizacao, Descricao, Historia, Tipo, Estilo, score",
+        "q.op": "AND",
+        "rows": 20
+    }
 }
- 
