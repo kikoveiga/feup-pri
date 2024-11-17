@@ -1,8 +1,8 @@
 {
     "query": "(Nome:Igreja OR Tipo:igreja) AND Localizacao:Porto",
-    "fields": "Nome, Localizacao, Tipo, Estatuto_Patrimonial",
+    "fields": "Nome, Localizacao, Descricao, Historia, Tipo, Estilo",
     "params": {
         "defType": "edismax",
-        "qf": "Nome^3 Localizacao^2 Tipo^2 Estatuto_Patrimonial^1"
+        "qf": "Nome^1.0 Descricao^2.0 Historia^1.5 Tipo^2.5 Estilo^2.0 Localizacao^3.0"
     }
 }

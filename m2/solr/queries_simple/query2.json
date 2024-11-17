@@ -1,7 +1,4 @@
 {
     "query": "Estilo:barroco*",
-    "fields": "Nome,Estilo, Tipo, Descricao",
-    "params": {
-        "defType": "edismax"
-    }
+    "fields": "Nome, Localizacao, Descricao, Historia, Tipo, Estilo"
 }

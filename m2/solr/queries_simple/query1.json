@@ -1,7 +1,4 @@
 {
     "query": "(Nome:Igreja OR Tipo:igreja) AND Localizacao:Porto",
-    "fields": "Nome, Localizacao, Tipo, Estatuto_Patrimonial",
-    "params": {
-        "defType": "edismax"
-    }
+    "fields": "Nome, Localizacao, Descricao, Historia, Tipo, Estilo"
 }

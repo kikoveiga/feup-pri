@@ -1,0 +1,8 @@
+{
+    "query": "Descricao:careca",
+    "fields": "Nome, Localizacao, Descricao, Historia, Tipo, Estilo",
+    "params": {
+        "defType": "edismax",
+        "qf": "Nome^1.0 Descricao^2.0 Historia^1.5 Tipo^2.5 Estilo^2.0 Localizacao^3.0"
+    }
+}
