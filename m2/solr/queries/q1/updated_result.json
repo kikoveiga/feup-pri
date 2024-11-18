@@ -1,7 +1,7 @@
 {
   "responseHeader":{
     "status":0,
-    "QTime":12,
+    "QTime":55,
     "params":{
       "json":"{\n    \"query\": \"Igreja Porto\",\n    \"params\": {\n        \"defType\": \"edismax\",\n        \"qf\": \"Nome^1.0 Descricao^2.0 Historia^1.5 Tipo^2.5 Estilo^2.0 Localizacao^3.0\",\n        \"fl\": \"id, Nome, Localizacao, Descricao, Historia, Tipo, Estilo, score\",\n        \"q.op\": \"AND\",\n        \"rows\": 50\n    }\n}\n"
     }
