@@ -1,5 +1,5 @@
 {
-    "query": "Idade Média Porto",
+    "query": "Reconquista Bragança",
     "params": {
         "defType": "edismax",
         "qf": "Nome Descricao Historia Tipo Estilo Localizacao",

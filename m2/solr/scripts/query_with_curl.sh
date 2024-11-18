@@ -12,7 +12,7 @@ fi
 # Directories for queries and results
 BASE_DIR=".."
 QUERY_DIR="$BASE_DIR/queries_$SCHEMA_TYPE"
-RESULTS_DIR="$BASE_DIR/results"
+RESULTS_DIR="$BASE_DIR/results_$SCHEMA_TYPE"
 
 # Create results directory if it doesn't exist
 mkdir -p "$RESULTS_DIR"

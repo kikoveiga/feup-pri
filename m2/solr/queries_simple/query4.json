@@ -1,5 +1,5 @@
 {
-    "query": "careca",
+    "query": "informação",
     "params": {
         "defType": "edismax",
         "qf": "Nome Descricao Historia Tipo Estilo Localizacao",
