@@ -30,8 +30,8 @@ for FOLDER in "${FOLDERS[@]}"; do
         continue
     fi
 
-    # Process simple_eval.txt
-    SIMPLE_FILE="$QUERY_FOLDER/simple_eval.txt"
+    # Process simple.trec
+    SIMPLE_FILE="$QUERY_FOLDER/simple.trec"
     if [[ -f "$SIMPLE_FILE" ]]; then
         OUTPUT_FILE="$QUERY_FOLDER/simple_pr.png"
         echo "Generating PR curve for $SIMPLE_FILE -> $OUTPUT_FILE"
@@ -40,8 +40,8 @@ for FOLDER in "${FOLDERS[@]}"; do
         echo "Warning: $SIMPLE_FILE not found in $FOLDER. Skipping."
     fi
 
-    # Process updated_eval.txt
-    UPDATED_FILE="$QUERY_FOLDER/updated_eval.txt"
+    # Process updated.trec
+    UPDATED_FILE="$QUERY_FOLDER/updated.trec"
     if [[ -f "$UPDATED_FILE" ]]; then
         OUTPUT_FILE="$QUERY_FOLDER/updated_pr.png"
         echo "Generating PR curve for $UPDATED_FILE -> $OUTPUT_FILE"

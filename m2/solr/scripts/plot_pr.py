@@ -87,6 +87,8 @@ def main(qrels_file: str, output_file: str):
     plt.savefig(output_file, format="png", dpi=300)
     print(f"Precision-Recall plot saved to {output_file}")
 
+    
+
 
 if __name__ == "__main__":
     # Argument parser to handle the qrels file and output file as command-line arguments
@@ -104,3 +106,5 @@ if __name__ == "__main__":
 
     # Run the main function with the provided qrels file and output file
     main(args.qrels, args.output)
+
+    

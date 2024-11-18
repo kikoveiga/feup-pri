@@ -1,5 +1,5 @@
 {
-    "query": "barroco",
+    "query": "barroco Porto",
     "params": {
         "defType": "edismax",
         "qf": "Nome Descricao Historia Tipo Estilo Localizacao",

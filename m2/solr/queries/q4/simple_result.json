@@ -1,7 +1,7 @@
 {
   "responseHeader":{
     "status":0,
-    "QTime":2,
+    "QTime":8,
     "params":{
       "json":"{\n    \"query\": \"informação\",\n    \"params\": {\n        \"defType\": \"edismax\",\n        \"qf\": \"Nome Descricao Historia Tipo Estilo Localizacao\",\n        \"fl\": \"id, Nome, Localizacao, Descricao, Historia, Tipo, Estilo, score\",\n        \"q.op\": \"AND\",\n        \"rows\": 20\n    }\n}"
     }
