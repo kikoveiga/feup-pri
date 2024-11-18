@@ -1,4 +1,4 @@
-num_ret               	0	20
+num_ret               	0	10
 num_rel               	0	8
 num_rel_ret           	0	0
 map                   	0	0.0000
@@ -27,7 +27,7 @@ P_500                 	0	0.0000
 P_1000                	0	0.0000
 runid                 	all	updated
 num_q                 	all	1
-num_ret               	all	20
+num_ret               	all	10
 num_rel               	all	8
 num_rel_ret           	all	0
 map                   	all	0.0000
