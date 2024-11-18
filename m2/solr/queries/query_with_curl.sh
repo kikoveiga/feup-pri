@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Usage: bash query_with_curl.sh <schema_type>
+# Usage: bash queries/query_with_curl.sh <schema_type>
 SCHEMA_TYPE=$1
 
 # Validate input
@@ -9,32 +9,32 @@ if [[ "$SCHEMA_TYPE" != "simple" && "$SCHEMA_TYPE" != "updated" ]]; then
     exit 1
 fi
 
-# Directories for queries and results
-BASE_DIR=".."
-QUERY_DIR="$BASE_DIR/queries_$SCHEMA_TYPE"
-RESULTS_DIR="$BASE_DIR/results_$SCHEMA_TYPE"
-
-# Create results directory if it doesn't exist
-mkdir -p "$RESULTS_DIR"
-
 # Solr configuration
 SOLR_URI="http://localhost:8983/solr"
 COLLECTION="monuments"
 
-# Iterate through all JSON query files in QUERY_DIR
-for query_file in "$QUERY_DIR"/*.json; do
-    # Extract the base name (e.g., "query1.json" -> "query1")
-    query_name=$(basename "$query_file" .json)
-    result_file="$RESULTS_DIR/${query_name}_results.json"
+# Iterate through all query subdirectories (e.g., q1, q2, q3)
+for query_dir in queries/*; do
+    # Ensure it's a directory
+    if [[ -d "$query_dir" ]]; then
+        # Locate the specific query file based on schema type
+        query_file="$query_dir/$SCHEMA_TYPE.json"
+        result_file="$query_dir/${SCHEMA_TYPE}_result.json"
 
-    echo "Processing query: $query_name"
+        # Check if the query file exists
+        if [[ -f "$query_file" ]]; then
+            echo "Processing query in $query_dir using $SCHEMA_TYPE schema..."
 
-    # Execute the curl command
-    curl -s -X POST -H "Content-Type: application/json" \
-        --data-binary "@$query_file" \
-        "$SOLR_URI/$COLLECTION/select" > "$result_file"
+            # Execute the curl command
+            curl -s -X POST -H "Content-Type: application/json" \
+                --data-binary "@$query_file" \
+                "$SOLR_URI/$COLLECTION/select" > "$result_file"
 
-    echo "Results saved to: $result_file"
+            echo "Results saved to: $result_file"
+        else
+            echo "Query file $query_file does not exist. Skipping $query_dir."
+        fi
+    fi
 done
 
-echo "All queries processed. Results are in the $RESULTS_DIR directory."
+echo "All queries processed for the $SCHEMA_TYPE schema."
