@@ -1,0 +1,2 @@
+gnome-terminal -- bash -c "cd backend && echo 'Starting Typescript server...' && npm run dev; exec bash"
+gnome-terminal -- bash -c "cd frontend && echo 'Starting React server...' && npm start; exec bash"

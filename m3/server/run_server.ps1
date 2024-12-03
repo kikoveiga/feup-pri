@@ -1,0 +1,2 @@
+Start-Process powershell -ArgumentList "-NoExit", "-Command", "cd backend; Write-Host 'Starting Typescript server...'; npm run dev"
+Start-Process powershell -ArgumentList "-NoExit", "-Command", "cd frontend; Write-Host 'Starting React server...'; npm start"
