@@ -1,2 +1,3 @@
 Start-Process powershell -ArgumentList "-NoExit", "-Command", "cd backend; Write-Host 'Starting Typescript server...'; npm run dev"
 Start-Process powershell -ArgumentList "-NoExit", "-Command", "cd frontend; Write-Host 'Starting React server...'; npm start"
+Start-Process powershell -ArgumentList "-NoExit", "-Command", "cd ..\solr; Write-Host 'Starting Solr instance...'; docker compose -f docker/docker-compose.yml up -d; Write-Host 'Sleeping 10 secs for Solr to startup'; Start-Sleep -Seconds 10; curl -X POST -H 'Content-type:application/json' --data-binary '@.\docker\data\schema_updated.json' http://localhost:8983/solr/monuments/schema; docker exec -it monuments bin/solr post -c monuments /data/data.json"
