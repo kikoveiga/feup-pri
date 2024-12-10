@@ -1,0 +1,8 @@
+# Query a todos os monumentos
+curl -X POST http://localhost:4000/monuments -H "Content-Type: application/json" -d '{"number": 10}'
+
+# Query para um id em específico
+curl -X POST http://localhost:4000/monument -H "Content-Type: application/json" -d '{"id": 10}'
+
+# Query para um testar uma query
+curl -X POST http://localhost:4000/query -H "Content-Type: application/json" -d '{"query": "Igreja Porto", "number": 10}'
