@@ -1,2 +1,3 @@
 gnome-terminal -- bash -c "cd backend && echo 'Starting Typescript server...' && npm run dev; exec bash"
 gnome-terminal -- bash -c "cd frontend && echo 'Starting React server...' && npm start; exec bash"
+gnome-terminal -- bash -c "cd .. && cd solr && echo 'Starting Solr instance...' && docker compose -f docker/docker-compose.yml up -d && echo 'Sleeping 10 secs for Solr to startup' && sleep 10 && curl -X POST -H 'Content-type:application/json' --data-binary "@./docker/data/schema_updated.json" http://localhost:8983/solr/monuments/schema && docker exec -it monuments bin/solr post -c monuments /data/data.json; exec bash"
