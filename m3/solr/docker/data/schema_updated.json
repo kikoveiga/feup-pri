@@ -1,0 +1,144 @@
+{
+    "add-field-type": [
+        {
+            "name": "text_general_accent_insensitive",
+            "class": "solr.TextField",
+            "indexAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                },
+                "filters": [
+                    {
+                        "class": "solr.SynonymFilterFactory",
+                        "synonyms": "synonyms.txt",
+                        "ignoreCase": true,
+                        "expand": false
+                    },
+                    {
+                        "class": "solr.ASCIIFoldingFilterFactory",
+                        "preserveOriginal": true
+                    },
+                    {
+                        "class": "solr.LowerCaseFilterFactory"
+                    },
+                    {
+                        "class":"solr.PortugueseStemFilterFactory"
+                    }
+                ]
+            },
+            "queryAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                },
+                "filters": [
+                    {
+                        "class": "solr.SynonymFilterFactory",
+                        "synonyms": "synonyms.txt",
+                        "ignoreCase": true,
+                        "expand": false
+                    },
+                    {
+                        "class": "solr.ASCIIFoldingFilterFactory",
+                        "preserveOriginal": true
+                    },
+                    {
+                        "class": "solr.LowerCaseFilterFactory"
+                    },
+                    {
+                        "class":"solr.PortugueseStemFilterFactory"
+                    }   
+                ]
+            }
+        },
+        {
+            "name": "string_accent_insensitive",
+            "class": "solr.TextField",
+            "indexAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.KeywordTokenizerFactory"
+                },
+                "filters": [
+                    {
+                        "class": "solr.ASCIIFoldingFilterFactory",
+                        "preserveOriginal": true
+                    },
+                    {
+                        "class": "solr.LowerCaseFilterFactory"
+                    }
+                ]
+            },
+            "queryAnalyzer": {
+                "tokenizer": {
+                    "class": "solr.StandardTokenizerFactory"
+                },
+                "filters": [
+                    {
+                        "class": "solr.ASCIIFoldingFilterFactory",
+                        "preserveOriginal": true
+                    },
+                    {
+                        "class": "solr.LowerCaseFilterFactory"
+                    }
+                ]
+            }
+        }
+    ],
+    "add-field": [
+
+        {
+            "name": "Nome",
+            "type": "text_general_accent_insensitive",
+            "stored": true,
+            "indexed": true
+        },
+        {
+            "name": "Descricao",
+            "type": "text_general_accent_insensitive",
+            "stored": true,
+            "indexed": true
+        },
+        {
+            "name": "Historia",
+            "type": "text_general_accent_insensitive",
+            "stored": true,
+            "indexed": true
+        },
+        {
+            "name": "Tipo",
+            "type": "string_accent_insensitive",
+            "stored": true,
+            "indexed": true
+        },
+        {
+            "name": "Estilo",
+            "type": "string_accent_insensitive",
+            "stored": true,
+            "indexed": true
+        },
+        {
+            "name": "Estatuto Patrimonial",
+            "type": "string_accent_insensitive",
+            "stored": true,
+            "indexed": true
+        },
+        {
+            "name": "Localizacao",
+            "type": "text_general_accent_insensitive",
+            "stored": true,
+            "indexed": true
+        },
+        {
+            "name": "Coordenadas",
+            "type": "location_rpt",
+            "stored": true,
+            "indexed": true,
+            "required": false
+        },
+        {
+            "name": "URL Imagem",
+            "type": "string",
+            "stored": true,
+            "indexed": false
+        }
+    ]
+}
