@@ -30,7 +30,7 @@ function MonumentDetail() {
             id: monumentData.id,
             Nome: monumentData.Nome,
             Localizacao: monumentData.Localizacao || "Location not available",
-            URLImagem: monumentData['URL Imagem'] || "https://via.placeholder.com/150",
+            URLImagem: monumentData.URL_Imagem || "https://via.placeholder.com/150",
             Descricao: monumentData.Descricao || "Description not available",
             Historia: monumentData.Historia || "History not available",
             Tipo: monumentData.Tipo || "Type not available",

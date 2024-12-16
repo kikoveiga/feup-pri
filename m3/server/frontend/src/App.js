@@ -25,7 +25,6 @@ function Home() {
       }
   
       const data = await response.json();
-      console.log('Response:', data);
   
       // Map Solr data to the frontend's expected format
       const mappedItems = data.response.docs.map((doc) => ({
