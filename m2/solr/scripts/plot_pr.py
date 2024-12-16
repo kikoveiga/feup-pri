@@ -77,7 +77,7 @@ def main(qrels_file: str, output_file: str):
     plt.xlabel("Recall")
     plt.ylabel("Precision")
     plt.xlim(0, 1)
-    plt.ylim(0, 1.2)
+    plt.ylim(0, 1)
     plt.legend(loc="lower left", prop={"size": 10})
 
     # Keep the title as "Precision-Recall Curve"

@@ -1,7 +1,7 @@
 {
   "responseHeader":{
     "status":0,
-    "QTime":6,
+    "QTime":10,
     "params":{
       "json":"{\n    \"query\": \"Reconquista Bragança\",\n    \"params\": {\n        \"defType\": \"edismax\",\n        \"qf\": \"Nome Descricao Historia Tipo Estilo Localizacao\",\n        \"fl\": \"id, Nome, Localizacao, Descricao, Historia, Tipo, Estilo, score\",\n        \"q.op\": \"AND\",\n        \"rows\": 10\n    }\n}\n"
     }
