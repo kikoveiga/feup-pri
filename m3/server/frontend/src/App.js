@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
+
 import MonumentDetail from './MonumentDetail';
 
 function Home() {
@@ -23,28 +24,45 @@ function Home() {
     }
   ];
 
-  const handleSearch = (e) => {
-    e.preventDefault();
-    setErrorMessage("");
-
-    const filteredResults = mockMonument.filter((item) =>
-      item.Nome.toLowerCase().includes(searchTerm.toLowerCase())
-    );
-
-    if (filteredResults.length > 0) {
-      setFilteredItems(filteredResults);
-    } else {
-      setFilteredItems([]);
-      setErrorMessage("No results found.");
+  const sendRequest = async () => {
+    if (!searchTerm.trim()) {
+      setErrorMessage("Search term cannot be empty.");
+      return;
+    }
+    try {
+      const response = await fetch('http://localhost:5001/query', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ query: searchTerm, number: 20 }),
+      });
+  
+      if (!response.ok) {
+        throw new Error(`HTTP Error: ${response.status} - ${response.statusText}`);
+      }
+  
+      const data = await response.json();
+      console.log('Response:', data);
+      setFilteredItems(data);
+    } catch (error) {
+      console.error('Error in sendRequest:', error);
+      setErrorMessage('Failed to fetch data. Please try again.');
     }
   };
+  
+
+  const handleSubmit = (e) => {
+    e.preventDefault(); // Prevents page reload
+    setErrorMessage(""); // Clear any existing errors
+    sendRequest(); // Call the async request
+  };
+  
 
   const navigate = useNavigate();
 
   return (
     <div className="App bg-gray-100 min-h-screen flex flex-col items-center justify-center">
       <header className="text-center">
-        <form onSubmit={handleSearch} className="mt-8 flex items-center space-x-4">
+        <form onSubmit={handleSubmit} className="mt-8 flex items-center space-x-4">
           <input
             type="text"
             placeholder="Search..."

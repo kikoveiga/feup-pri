@@ -2,6 +2,7 @@ import express, { Express, Request, Response } from "express";
 import dotenv from "dotenv";
 import { execFile } from "child_process";
 import path from "path";
+import cors from "cors";
 
 dotenv.config();
 
@@ -13,7 +14,10 @@ app.use(express.json());
 const port = process.env.PORT || 3000;
 
 const solrUrl = "http://localhost:8983/solr/monuments/select";
-const scriptPath = path.resolve(__dirname, "solr_query_script.sh");
+const scriptPath = path.resolve(__dirname, "solr_query_script.ps1");
+
+// Use cors
+app.use(cors({ origin: '*' }));
 
 app.get("/", (req: Request, res: Response) => {
   res.send("Hmmmm, there's nothing here to be seen");
@@ -30,6 +34,9 @@ app.post("/query", (req: any, res: any) => {
   if (!req.body){
     return res.status(400).send("400 - No body found in the request");
   }
+
+  console.log("Received body:", req.body);
+
 
   const { query, number } = req.body;
 
@@ -52,29 +59,31 @@ app.post("/query", (req: any, res: any) => {
     }
   });
 
-  execFile(scriptPath, [solrUrl, queryJson], (error, stdout, stderr) => {
-    if (error) {
-      console.error("Error executing shell script:", error);
-      return res.status(500).json({ error: "500 - Internal Server Error executing shell script" });
+  execFile(
+    "powershell.exe",
+    ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", scriptPath, solrUrl, queryJson],
+    (error, stdout, stderr) => {
+        if (error) {
+            console.error("Error executing PowerShell script:", error);
+            return res.status(500).json({ error: "500 - Internal Server Error executing PowerShell script" });
+        }
+
+        if (stderr) {
+            console.error("PowerShell script error:", stderr);
+            return res.status(500).json({ error: "500 - Internal Server Error in the PowerShell script: " + stderr });
+        }
+
+        try {
+            const jsonResponse = JSON.parse(stdout);
+
+            console.log(jsonResponse);
+            return res.status(200).json(jsonResponse);
+        } catch (parseError) {
+            console.error("Error parsing PowerShell script output:", parseError);
+            return res.status(500).json({ error: "500 - Failed to parse PowerShell script output as JSON" });
+        }
     }
-
-    if (stderr) {
-      console.error("Shell script error:", stderr);
-      return res.status(500).json({ error: "500 - Internal Server Error in the shell script: " + error});
-    }
-
-    try {
-      const jsonResponse = JSON.parse(stdout);
-
-      console.log(jsonResponse.response.docs);
-
-      return res.status(200).json(jsonResponse.response.docs);
-    } 
-    catch (parseError) {
-      console.error("Error parsing shell script output:", parseError);
-      return res.status(500).json({ error: "500 - Failed to parse shell script output as JSON" });
-    }
-  });
+);
 });
 
 /**
