@@ -35,6 +35,8 @@ app.post("/query", (req: any, res: any) => {
     return res.status(400).send("400 - No body found in the request");
   }
 
+  console.log("Received body:", req.body);
+
 
   const { query, number } = req.body;
 
@@ -75,6 +77,7 @@ app.post("/query", (req: any, res: any) => {
         try {
             const jsonResponse = JSON.parse(stdout);
 
+            console.log(jsonResponse);
             return res.status(200).json(jsonResponse);
         } catch (parseError) {
             console.error("Error parsing PowerShell script output:", parseError);
@@ -127,6 +130,7 @@ app.post("/monuments", (req: any, res: any) => {
         try {
             const jsonResponse = JSON.parse(stdout);
 
+            console.log(jsonResponse);
             return res.status(200).json(jsonResponse);
         } catch (parseError) {
             console.error("Error parsing PowerShell script output:", parseError);
@@ -174,6 +178,7 @@ app.post("/monument", (req: any, res: any) => {
       }
   
       try {
+          console.log("HERE: " + stdout);
           const utf8Response = Buffer.from(stdout, 'utf-8').toString();
           const jsonResponse = JSON.parse(utf8Response);
           return res.status(200).json(jsonResponse);

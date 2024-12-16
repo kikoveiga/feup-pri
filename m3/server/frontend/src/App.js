@@ -53,6 +53,7 @@ function Home() {
     const newNumber = prompt("Enter the number of monuments to display:", number);
     if (newNumber && !isNaN(newNumber)) {
       setNumber(parseInt(newNumber, 10));
+      sendRequest();
     }
   };
 
