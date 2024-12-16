@@ -44,6 +44,18 @@ schema_updated:
 populate:
 	docker exec -it monuments bin/solr post -c monuments /data/data.json
 
+.PHONY: generate_embeddings
+generate_embeddings:
+	python3 scripts/get_embeddings.py < docker/data/data.json > docker/data/semantic_data.json
+
+.PHONY: populate_semantic
+populate_semantic:
+	docker exec -it monuments bin/solr post -c monuments /data/semantic_data.json
+
+.PHONY: semantic_query
+semantic_query:
+	python3 scripts/query_embedding.py
+
 .PHONY: trec_eval
 trec_eval:
 	git clone https://github.com/usnistgov/trec_eval.git src/trec_eval
@@ -52,4 +64,4 @@ trec_eval:
 
 .PHONY: test
 test:
-	python -m unittest discover -s test -p 'test_*.py'
+	python3 -m unittest discover -s test -p 'test_*.py'
