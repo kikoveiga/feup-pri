@@ -1,10 +1,12 @@
 {
-    "query": "Reconquista Bragança",
+    "query": "Arquitetura gótica Lisboa património cultural",
     "params": {
         "defType": "edismax",
         "qf": "Nome^1.0 Descricao^2.0 Historia^1.5 Tipo^2.5 Estilo^2.0 Localizacao^3.0",
+        "pf": "Descricao^2.5 Historia^2.0",  
+        "ps": 3,                              
         "fl": "id, Nome, Localizacao, Descricao, Historia, Tipo, Estilo, score",
         "q.op": "AND",
-        "rows": 10
+        "rows": 30
     }
 }

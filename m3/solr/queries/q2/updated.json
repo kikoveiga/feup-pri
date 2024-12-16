@@ -1,13 +1,12 @@
 {
-    "query": "Barroco Porto",
+    "query": "barroco Porto",
     "params": {
         "defType": "edismax",
-        "qf": "Estilo^3.5 Descricao^3.0 Historia^2.0 Tipo^1.5 Localizacao^3.0 Nome^1.0",
-        "pf": "Estilo^3.0 Descricao^2.0",
-        "ps": 3,
+        "qf": "Nome^1.0 Descricao^2.0 Historia^1.5 Tipo^2.5 Estilo^2.0 Localizacao^3.0",
+        "pf": "Descricao^2.5 Historia^2.0",  
+        "ps": 3,                              
         "fl": "id, Nome, Localizacao, Descricao, Historia, Tipo, Estilo, score",
         "q.op": "AND",
-        "fq": "Localizacao:Porto",
         "rows": 30
     }
 }

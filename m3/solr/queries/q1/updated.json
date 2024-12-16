@@ -2,10 +2,9 @@
     "query": "Igreja Porto",
     "params": {
         "defType": "edismax",
-        "qf": "Nome^1.0 Descricao^2.0 Historia^1.5 Tipo^3.0 Estilo^2.0 Localizacao^4.0",
-        "pf": "Nome^3.0 Localizacao^5.0",
-        "ps": 2,
-        "fq": "Localizacao:(Porto OR \"Distrito do Porto\")",
+        "qf": "Nome^1.0 Descricao^2.0 Historia^1.5 Tipo^2.5 Estilo^2.0 Localizacao^3.0",
+        "pf": "Descricao^2.5 Historia^2.0",  
+        "ps": 3,                              
         "fl": "id, Nome, Localizacao, Descricao, Historia, Tipo, Estilo, score",
         "q.op": "AND",
         "rows": 30
