@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
+
 import MonumentDetail from './MonumentDetail';
 
 function Home() {
@@ -23,6 +24,22 @@ function Home() {
     }
   ];
 
+  const sendRequest = async () => {
+    try {
+      const response = await fetch('http://localhost:5001/', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ number: 20 })
+      });
+      const data = await response.json();
+      console.log('Response:', data);
+    } catch (error) {
+      console.error('Error sending request:', error);
+    }
+  };s
+
   const handleSearch = (e) => {
     e.preventDefault();
     setErrorMessage("");
@@ -44,7 +61,7 @@ function Home() {
   return (
     <div className="App bg-gray-100 min-h-screen flex flex-col items-center justify-center">
       <header className="text-center">
-        <form onSubmit={handleSearch} className="mt-8 flex items-center space-x-4">
+        <form onSubmit={sendRequest} className="mt-8 flex items-center space-x-4">
           <input
             type="text"
             placeholder="Search..."

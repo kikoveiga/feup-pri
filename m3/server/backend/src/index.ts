@@ -2,6 +2,7 @@ import express, { Express, Request, Response } from "express";
 import dotenv from "dotenv";
 import { execFile } from "child_process";
 import path from "path";
+import cors from "cors";
 
 dotenv.config();
 
@@ -14,6 +15,9 @@ const port = process.env.PORT || 3000;
 
 const solrUrl = "http://localhost:8983/solr/monuments/select";
 const scriptPath = path.resolve(__dirname, "solr_query_script.sh");
+
+// Use cors
+app.use(cors());
 
 app.get("/", (req: Request, res: Response) => {
   res.send("Hmmmm, there's nothing here to be seen");

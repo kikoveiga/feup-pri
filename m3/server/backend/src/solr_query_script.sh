@@ -1,5 +1,4 @@
 #!/bin/bash
-# query_solr.sh
 
 SOLR_URL=$1
 QUERY_JSON=$2
