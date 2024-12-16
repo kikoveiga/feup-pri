@@ -84,7 +84,7 @@
         },
         {
             "name": "courseVector",
-            "class": "Solr.DenseVectorField",
+            "class": "solr.DenseVectorField",
             "vectorDimension": 384,
             "similarityFunction": "cosine",
             "knnAlgorithm": "hnsw"
