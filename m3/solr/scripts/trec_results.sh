@@ -8,6 +8,7 @@ QUERIES_DIR="$BASE_DIR/queries"
 
 # Path to solr2trec.py script
 SOLR2TREC_SCRIPT="$BASE_DIR/scripts/solr2trec.py"
+SEMANTIC2TREC_SCRIPT="$BASE_DIR/scripts/semantic2trec.py"
 
 # Ensure solr2trec.py exists
 if [[ ! -f "$SOLR2TREC_SCRIPT" ]]; then
@@ -37,6 +38,16 @@ for QUERY_FOLDER in "$QUERIES_DIR"/q*/; do
         echo "Generated $OUTPUT_FILE"
     else
         echo "Warning: $UPDATED_RESULT not found. Skipping."
+    fi
+
+    # Process semantic_result.json
+    SEMANTIC_RESULT="$QUERY_FOLDER/semantic_result.json"
+    if [[ -f "$SEMANTIC_RESULT" ]]; then
+        OUTPUT_FILE="$QUERY_FOLDER/semantic.trec"
+        cat "$SEMANTIC_RESULT" | python3 "$SEMANTIC2TREC_SCRIPT" --run-id "semantic" > "$OUTPUT_FILE"
+        echo "Generated $OUTPUT_FILE"
+    else
+        echo "Warning: $SEMANTIC_RESULT not found. Skipping."
     fi
 done
 

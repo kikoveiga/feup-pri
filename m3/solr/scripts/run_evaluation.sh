@@ -49,6 +49,16 @@ for FOLDER in "${FOLDERS[@]}"; do
     else
         echo "Warning: $UPDATED_FILE not found in $FOLDER. Skipping."
     fi
+
+    # Evaluate semantic.trec
+    SEMANTIC_FILE="$QUERY_FOLDER/semantic.trec"
+    if [[ -f "$SEMANTIC_FILE" ]]; then
+        OUTPUT_FILE="$QUERY_FOLDER/semantic_eval.txt"
+        echo "Evaluating $SEMANTIC_FILE against $QRELS_FILE -> $OUTPUT_FILE"
+        "$TREC_EVAL_EXEC" -q "$QRELS_FILE" "$SEMANTIC_FILE" > "$OUTPUT_FILE"
+    else
+        echo "Warning: $SEMANTIC_FILE not found in $FOLDER. Skipping."
+    fi
 done
 
 echo "All evaluations completed!"
