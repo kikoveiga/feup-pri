@@ -7,12 +7,12 @@ def text_to_embedding(text):
 
     return "[" + ", ".join(map(str, embedding)) + "]"
 
-def solr_knn_query(endpoint, core_name, embedding, top_k=10):
+def solr_knn_query(endpoint, core_name, embedding, top_k=30):
     url = f"{endpoint}/{core_name}/select"
 
     data = {
         "q": f"{{!knn f=vector topK={top_k}}}{embedding}",
-        "fl": "id, Nome, Descricao, Lozalizacao, score",
+        "fl": "id, Nome, Localizacao, Estilo, score",
         "rows": top_k,
         "wt": "json"
     }
@@ -25,49 +25,40 @@ def solr_knn_query(endpoint, core_name, embedding, top_k=10):
     response.raise_for_status()
     return response.json()
 
-def test_embedding_queries(queries_folder, solr_url, core_name):
-    results = {}
-
-    for query_folder in sorted(os.listdir(queries_folder)):
-        folder_path = os.path.join(queries_folder, query_folder)
-
-        if not os.path.isdir(folder_path):
-            print(f"Skipping {query_folder}, not a folder.")
-            continue
-
-        query_file = os.path.join(folder_path, 'updated.json')
-        print(query_file)
-        result_path = os.path.join(folder_path, 'semantic_result.json')
-
-        if not os.path.isfile(query_file):
-            print (f"Skipping {query_folder}, updated.json not found.")
-            continue
-
-        with open(query_file, 'r', encoding='utf-8') as file:
-            query_data = json.load(file)
-            query_text = query_data.get('query', '')
-
-        print(f"Generating embedding and testing query: {query_text} (Folder: {query_folder})")
-        embedding = text_to_embedding(query_text)
-
-        try:
-            response = solr_knn_query(solr_url, core_name, embedding)
-            results = response.get('response', {}).get('docs', [])
-        except requests.HTTPError as e:
-            print(f"Error {e.response.status_code}: {e.response.text}")
-            results = []
-
-        with open(result_path, 'w', encoding='utf-8') as file:
-            print(f"Writing results to {result_path}")
-            json.dump(results, file, indent=4, ensure_ascii=False)
-
+def save_results_to_file(results, folder_path):
+    output_file = os.path.join(folder_path, 'semantic_result.json')
+    with open(output_file, 'w', encoding='utf-8') as file:
+        json.dump(results, file, indent=4, ensure_ascii=False)
+    print(f"Results saved to {output_file}")
 
 def main():
     QUERIES_FOLDER = "queries"
     SOLR_URL = "http://localhost:8983/solr"
     CORE_NAME = "monuments"
 
-    query_results = test_embedding_queries(QUERIES_FOLDER, SOLR_URL, CORE_NAME)
+    queries = [
+        {"folder": "queries/q1", "query": "Igreja Porto"},
+        {"folder": "queries/q2", "query": "Barroco Porto"},
+        {"folder": "queries/q3", "query": "Arquitetura gótica Lisboa património cultural"}
+    ]
+
+    for query_data in queries:
+        folder_path = query_data["folder"]
+        query_text = query_data["query"]
+
+        if not os.path.exists(folder_path):
+            os.makedirs(folder_path)
+
+        embedding = text_to_embedding(query_text)
+
+        try:
+            results = solr_knn_query(SOLR_URL, CORE_NAME, embedding)
+            docs = results.get("response", {}).get("docs", [])
+
+            save_results_to_file(docs, folder_path)
+
+        except requests.HTTPError as e:
+            print(f"Error querying for {query_text}: {e.response.text}")
 
 if __name__ == '__main__':
     main()
