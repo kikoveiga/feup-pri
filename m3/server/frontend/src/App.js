@@ -8,22 +8,6 @@ function Home() {
   const [filteredItems, setFilteredItems] = useState([]);
   const [errorMessage, setErrorMessage] = useState("");
 
-  // Mock data for demonstration
-  const mockMonument = [
-    {
-      id: 1,
-      Nome: "Castelo de Santa Maria da Feira",
-      Descricao: "O Castelo da Feira, também referido como Castelo de Santa Maria da Feira e Castelo de Santa Maria...",
-      Historia: "Embora a primitiva ocupação humana do seu sítio remonte à pré-história...",
-      Tipo: "castelo património cultural",
-      Estilo: "arquitetura românica",
-      EstatutoPatrimonial: "Monumento Nacional",
-      Localizacao: "Santa Maria da Feira, Travanca, Sanfins e Espargo, Portugal",
-      Coordenadas: null,
-      URLImagem: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Castelo_da_Feira.jpg/275px-Castelo_da_Feira.jpg"
-    }
-  ];
-
   const sendRequest = async () => {
     if (!searchTerm.trim()) {
       setErrorMessage("Search term cannot be empty.");
@@ -42,12 +26,23 @@ function Home() {
   
       const data = await response.json();
       console.log('Response:', data);
-      setFilteredItems(data);
+  
+      // Map Solr data to the frontend's expected format
+      const mappedItems = data.response.docs.map((doc) => ({
+        id: doc.id,
+        Nome: doc.Nome,
+        Historia: doc.Historia,
+        Localizacao: doc.Localizacao || "Location not available", // Handle missing values
+        URLImagem: doc.URL_Imagem || "https://via.placeholder.com/150", // Handle the space in the key
+      }));
+      
+      setFilteredItems(mappedItems);
     } catch (error) {
       console.error('Error in sendRequest:', error);
       setErrorMessage('Failed to fetch data. Please try again.');
     }
   };
+  
   
 
   const handleSubmit = (e) => {
