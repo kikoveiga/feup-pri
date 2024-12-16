@@ -36,28 +36,30 @@ def test_embedding_queries(queries_folder, solr_url, core_name):
             continue
 
         query_file = os.path.join(folder_path, 'updated.json')
+        print(query_file)
         result_path = os.path.join(folder_path, 'semantic_result.json')
 
         if not os.path.isfile(query_file):
             print (f"Skipping {query_folder}, updated.json not found.")
             continue
 
-    with open(query_file, 'r', encoding='utf-8') as file:
-        query_data = json.load(file)
-        query_text = query_data.get('query', '')
+        with open(query_file, 'r', encoding='utf-8') as file:
+            query_data = json.load(file)
+            query_text = query_data.get('query', '')
 
-    print("Generating embedding and testing query: {query_text} (Folder: {query_folder})")
-    embedding = text_to_embedding(query_text)
+        print(f"Generating embedding and testing query: {query_text} (Folder: {query_folder})")
+        embedding = text_to_embedding(query_text)
 
-    try:
-        response = solr_knn_query(solr_url, core_name, embedding)
-        results = response.get('response', {}).get('docs', [])
-    except requests.HTTPError as e:
-        print(f"Error {e.response.status_code}: {e.response.text}")
-        results = []
+        try:
+            response = solr_knn_query(solr_url, core_name, embedding)
+            results = response.get('response', {}).get('docs', [])
+        except requests.HTTPError as e:
+            print(f"Error {e.response.status_code}: {e.response.text}")
+            results = []
 
-    with open(result_path, 'w', encoding='utf-8') as file:
-        json.dump(results, file, indent=4, ensure_ascii=False)
+        with open(result_path, 'w', encoding='utf-8') as file:
+            print(f"Writing results to {result_path}")
+            json.dump(results, file, indent=4, ensure_ascii=False)
 
 
 def main():
