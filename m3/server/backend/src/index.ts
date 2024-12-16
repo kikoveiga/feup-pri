@@ -53,7 +53,7 @@ app.post("/query", (req: any, res: any) => {
       "qf": "Nome Descricao Historia Tipo Estilo Localizacao",
       "fl": "id, Nome, Localizacao, URL_Imagem",
       "q.op": "OR",
-      "rows": 20
+      "rows": number
     }
   });
 
