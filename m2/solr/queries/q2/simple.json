@@ -2,9 +2,9 @@
     "query": "barroco Porto",
     "params": {
         "defType": "edismax",
-        "qf": "Nome Descricao Historia Tipo Estilo Localizacao",
+        "qf": "Nome^1.0 Descricao^2.0 Historia^1.5 Tipo^2.5 Estilo^2.0 Localizacao^3.0",
         "fl": "id, Nome, Localizacao, Descricao, Historia, Tipo, Estilo, score",
         "q.op": "AND",
-        "rows": 10
+        "rows": 30
     }
 }
