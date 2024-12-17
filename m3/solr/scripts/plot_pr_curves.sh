@@ -25,6 +25,7 @@ for FOLDER in "${FOLDERS[@]}"; do
 
     # Ensure qrels.trec exists
     QRELS_FILE="$QUERY_FOLDER/qrels.trec"
+    QRELS_SEMANTIC_FILE="$QUERY_FOLDER/qrels_semantic.trec"
     if [[ ! -f "$QRELS_FILE" ]]; then
         echo "Warning: $QRELS_FILE not found. Skipping $FOLDER."
         continue
@@ -43,11 +44,21 @@ for FOLDER in "${FOLDERS[@]}"; do
     # Process updated.trec
     UPDATED_FILE="$QUERY_FOLDER/updated.trec"
     if [[ -f "$UPDATED_FILE" ]]; then
-        OUTPUT_FILE="$QUERY_FOLDER/updated_pr.png"
+        OUTPUT_FILE="$QUERY_FOLDER/updated_pr.png"s
         echo "Generating PR curve for $UPDATED_FILE -> $OUTPUT_FILE"
         cat "$UPDATED_FILE" | python3 "$PR_SCRIPT" --qrels "$QRELS_FILE" --output "$OUTPUT_FILE"
     else
         echo "Warning: $UPDATED_FILE not found in $FOLDER. Skipping."
+    fi
+
+    # Process semantic.trec
+    SEMANTIC_FILE="$QUERY_FOLDER/semantic.trec"
+    if [[ -f "$SEMANTIC_FILE" ]]; then
+        OUTPUT_FILE="$QUERY_FOLDER/semantic_pr.png"
+        echo "Generating PR curve for $SEMANTIC_FILE -> $OUTPUT_FILE"
+        cat "$SEMANTIC_FILE" | python3 "$PR_SCRIPT" --qrels "$QRELS_SEMANTIC_FILE" --output "$OUTPUT_FILE"
+    else
+        echo "Warning: $SEMANTIC_FILE not found in $FOLDER. Skipping."
     fi
 done
 
