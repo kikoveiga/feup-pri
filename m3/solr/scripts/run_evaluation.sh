@@ -30,6 +30,13 @@ for FOLDER in "${FOLDERS[@]}"; do
         continue
     fi
 
+    # Ensure qrels_semantic.trec exists
+    QRELS_SEMANTIC_FILE="$QUERY_FOLDER/qrels_semantic.trec"
+    if [[ ! -f "$QRELS_SEMANTIC_FILE" ]]; then
+        echo "Warning: $QRELS_SEMANTIC_FILE not found. Skipping $FOLDER."
+        continue
+    fi
+
     # Evaluate simple.trec
     SIMPLE_FILE="$QUERY_FOLDER/simple.trec"
     if [[ -f "$SIMPLE_FILE" ]]; then
@@ -54,8 +61,8 @@ for FOLDER in "${FOLDERS[@]}"; do
     SEMANTIC_FILE="$QUERY_FOLDER/semantic.trec"
     if [[ -f "$SEMANTIC_FILE" ]]; then
         OUTPUT_FILE="$QUERY_FOLDER/semantic_eval.txt"
-        echo "Evaluating $SEMANTIC_FILE against $QRELS_FILE -> $OUTPUT_FILE"
-        "$TREC_EVAL_EXEC" -q "$QRELS_FILE" "$SEMANTIC_FILE" > "$OUTPUT_FILE"
+        echo "Evaluating $SEMANTIC_FILE against $QRELS_SEMANTIC_FILE -> $OUTPUT_FILE"
+        "$TREC_EVAL_EXEC" -q "$QRELS_SEMANTIC_FILE" "$SEMANTIC_FILE" > "$OUTPUT_FILE"
     else
         echo "Warning: $SEMANTIC_FILE not found in $FOLDER. Skipping."
     fi
