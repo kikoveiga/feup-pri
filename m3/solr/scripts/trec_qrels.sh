@@ -21,6 +21,7 @@ for QUERY_FOLDER in "$QUERIES_DIR"/q*/; do
 
     # Path to the qrels.txt file
     QRELS_FILE="$QUERY_FOLDER/qrels.txt"
+    QRELS_SEMANTIC_FILE="$QUERY_FOLDER/qrels_semantic.txt"
     
     # Check if qrels.txt exists
     if [[ -f "$QRELS_FILE" ]]; then
@@ -32,6 +33,18 @@ for QUERY_FOLDER in "$QUERIES_DIR"/q*/; do
         echo "Generated $OUTPUT_FILE"
     else
         echo "Warning: $QRELS_FILE not found. Skipping."
+    fi
+
+    # Check if qrels_semantic.txt exists
+    if [[ -f "$QRELS_SEMANTIC_FILE" ]]; then
+        # Output file for the converted TREC QREL format
+        OUTPUT_FILE="$QUERY_FOLDER/qrels_semantic.trec"
+
+        # Convert qrels_semantic.txt to TREC format using qrels2trec.py
+        cat "$QRELS_SEMANTIC_FILE" | python3 "$QRELS2TREC_SCRIPT" > "$OUTPUT_FILE"
+        echo "Generated $OUTPUT_FILE"
+    else
+        echo "Warning: $QRELS_SEMANTIC_FILE not found. Skipping."
     fi
 done
 
