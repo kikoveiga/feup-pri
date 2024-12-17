@@ -12,7 +12,7 @@ def solr_knn_query(endpoint, core_name, embedding, top_k=30):
 
     data = {
         "q": f"{{!knn f=vector topK={top_k}}}{embedding}",
-        "fl": "id, Nome, Localizacao, Estilo, score",
+        "fl": "id, Nome, Descricao, Tipo, Localizacao, Estilo, score",
         "rows": top_k,
         "wt": "json"
     }

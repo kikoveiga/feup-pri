@@ -2,42 +2,56 @@
     {
         "id": "1324",
         "Nome": "Pelourinho de Castelo (Arnoia)",
+        "Descricao": "O Pelourinho do Castelo, ou Pelourinho de Arnóia, localiza-se na freguesia de Arnoia, município de Celorico de Basto, no distrito de Braga, em Portugal. Encontra-se classificado como Imóvel de Interesse Público desde 1933.",
+        "Tipo": "património cultural",
         "Localizacao": "Arnoia,Portugal",
         "score": 0.7727225
     },
     {
         "id": "1342",
         "Nome": "Pelourinho de Ervedosa",
+        "Descricao": "O Pelourinho de Ervedosa localiza-se na freguesia de Ervedosa, município de Vinhais, Bragança, em Portugal.",
+        "Tipo": "património cultural",
         "Localizacao": "Ervedosa,Portugal",
         "score": 0.76272094
     },
     {
         "id": "1359",
         "Nome": "Pelourinho de Larim",
+        "Descricao": "O Pelourinho de Larim localiza-se na freguesia de Soutelo, no município de Vila Verde, distrito de Braga, em Portugal.",
+        "Tipo": "património cultural",
         "Localizacao": "Soutelo,Portugal",
         "score": 0.7618482
     },
     {
         "id": "1228",
         "Nome": "Palácio das Laranjeiras (Lisboa)",
+        "Descricao": "O Palácio das Laranjeiras, ou Palácio dos Condes de Farrobo, é um edifício histórico localizado na freguesia de São Domingos de Benfica, em Lisboa.",
+        "Tipo": "palácio,património cultural",
         "Localizacao": "São Domingos de Benfica,Portugal",
         "score": 0.76027626
     },
     {
         "id": "1406",
         "Nome": "Pelourinho de Raiva",
+        "Descricao": "O Pelourinho de Raiva localiza-se em Raiva, na atual freguesia de Raiva, Pedorido e Paraíso, município de Castelo de Paiva, distrito de Aveiro, em Portugal.",
+        "Tipo": "património cultural",
         "Localizacao": "Raiva, Pedorido e Paraíso,Portugal",
         "score": 0.7578558
     },
     {
         "id": "794",
         "Nome": "Casa Nobre de Lázaro Leitão Aranha",
+        "Descricao": "A Casa Nobre de Lázaro Leitão Aranha (também denominada Casa Nobre de Lázaro Leitão ou Quinta de Lázaro Leitão) situa-se na freguesia portuguesa de Belém, no Município de Lisboa, mais precisamente na Rua da Junqueira.",
+        "Tipo": "palácio,património cultural",
         "Localizacao": "Belém,Portugal",
         "score": 0.75666493
     },
     {
         "id": "1130",
         "Nome": "Igreja de São Tiago de Valadares",
+        "Descricao": "A Igreja de São Tiago de Valadares é uma igreja românica situada em Valadares, no município de Baião, em Portugal. Em 2012 foi classificada como monumento de interesse público e está integrada na Rota do Românico.",
+        "Tipo": "património cultural",
         "Estilo": "arte românica",
         "Localizacao": "Valadares,Portugal",
         "score": 0.7541113
@@ -45,138 +59,184 @@
     {
         "id": "1316",
         "Nome": "Pelourinho de Cabeceiras de Basto",
+        "Descricao": "O Pelourinho de Cabeceiras de Basto localiza-se na atual freguesia de Refojos de Basto, Outeiro e Painzela, município de Cabeceiras de Basto, distrito de Braga, em Portugal.",
+        "Tipo": "património cultural",
         "Localizacao": "Refojos de Basto, Outeiro e Painzela,Portugal",
         "score": 0.7517166
     },
     {
         "id": "1305",
         "Nome": "Pelourinho de Azinhoso",
+        "Descricao": "O Pelourinho de Azinhoso localiza-se na freguesia de Azinhoso, município de Mogadouro, distrito de Bragança, em Portugal.",
+        "Tipo": "património cultural",
         "Localizacao": "Azinhoso,Portugal",
         "score": 0.7480953
     },
     {
         "id": "1461",
         "Nome": "Pelourinho do Burgo",
+        "Descricao": "O Pelourinho do Burgo localiza-se junto à capela no lugar de Santo António do Burgo, na atual freguesia de Arouca e Burgo, município de Arouca, distrito de Aveiro.",
+        "Tipo": "património cultural",
         "Localizacao": "Arouca e Burgo,Portugal",
         "score": 0.7470345
     },
     {
         "id": "1414",
         "Nome": "Pelourinho de Rua (Baião)",
+        "Descricao": "O Pelourinho de Rua, ou Pelourinho de Teixeira, situa-se em Teixeira, na atual freguesia de Teixeira e Teixeiró, município de Baião, distrito do Porto, Portugal.",
+        "Tipo": "património cultural",
         "Localizacao": "Teixeira e Teixeiró,Portugal",
         "score": 0.7446145
     },
     {
         "id": "1438",
         "Nome": "Pelourinho de Vale de Prados",
+        "Descricao": "O Pelourinho de Vale de Prados localiza-se na freguesia de Vale de Prados, no município de Macedo de Cavaleiros, distrito de Bragança, em Portugal.",
+        "Tipo": "património cultural",
         "Localizacao": "Vale de Prados,Portugal",
         "score": 0.74402654
     },
     {
         "id": "1455",
         "Nome": "Pelourinho de Vinhais",
+        "Descricao": "O Pelourinho de Vinhais localiza-se na freguesia de Vinhais, município de Vinhais, distrito de Bragança, em Portugal. Este pelourinho encontra-se classificado como Imóvel de Interesse Público desde 1933.",
+        "Tipo": "património cultural",
         "Localizacao": "Vinhais,Portugal",
         "score": 0.74345005
     },
     {
         "id": "1353",
         "Nome": "Pelourinho de Gostei",
+        "Descricao": "O Pelourinho de Gostei localiza-se na freguesia de Gostei, no município de Bragança,  distrito do mesmo nome, em Portugal.",
+        "Tipo": "património cultural",
         "Localizacao": "Gostei,Portugal",
         "score": 0.7432515
     },
     {
         "id": "1304",
         "Nome": "Pelourinho de Azaruja",
+        "Descricao": "O Pelourinho de Azaruja localiza-se na freguesia de São Bento do Mato, município de Évora, distrito do mesmo nome, Portugal.",
+        "Tipo": "património cultural",
         "Localizacao": "São Bento do Mato,Portugal",
         "score": 0.7431196
     },
     {
         "id": "1357",
         "Nome": "Pelourinho de Lamas de Orelhão",
+        "Descricao": "O Pelourinho de Lamas de Orelhão localiza-se na freguesia de Lamas de Orelhão, município de Mirandela, distrito de Bragança, em Portugal.",
+        "Tipo": "património cultural",
         "Localizacao": "Lamas de Orelhão,Portugal",
         "score": 0.7429328
     },
     {
         "id": "1137",
         "Nome": "Igreja de Valadares",
+        "Descricao": "A Igreja de Valadares, Igreja Paroquial de Valadares ou Igreja de Santa Eulália, é uma igreja localizada em Valadares, na atual freguesia de Messegães, Valadares e Sá, no município de Monção, em Portugal.",
+        "Tipo": "património cultural",
         "Localizacao": "Messegães, Valadares e Sá,Portugal",
         "score": 0.74266773
     },
     {
         "id": "1405",
         "Nome": "Pelourinho de Póvoa de Santa Cristina",
+        "Descricao": "O Pelourinho de Póvoa de Santa Cristina é um pelourinho situado na freguesia de Tentúgal, no município de Montemor-o-Velho, distrito de Coimbra, em Portugal.",
+        "Tipo": "património cultural",
         "Localizacao": "Tentúgal,Portugal",
         "score": 0.7424198
     },
     {
         "id": "1430",
         "Nome": "Pelourinho de Terena",
+        "Descricao": "O Pelourinho de Terena situa-se na freguesia de Terena, no município do Alandroal, em Portugal.",
+        "Tipo": "património cultural",
         "Localizacao": "Terena,Portugal",
         "score": 0.74197817
     },
     {
         "id": "1360",
         "Nome": "Pelourinho de Linhares (Carrazeda de Ansiães)",
+        "Descricao": "O Pelourinho de Linhares localiza-se na freguesia de Linhares, no município do mesmo nome, distrito de Bragança, em Portugal.",
+        "Tipo": "património cultural",
         "Localizacao": "Linhares,Portugal",
         "score": 0.74185777
     },
     {
         "id": "1390",
         "Nome": "Pelourinho de Paçó",
+        "Descricao": "O Pelourinho de Paçó localiza-se na freguesia de Paçó, município de Vinhais, distrito de Bragança, em Portugal.",
+        "Tipo": "património cultural",
         "Localizacao": "Paçó,Portugal",
         "score": 0.74169326
     },
     {
         "id": "1318",
         "Nome": "Pelourinho de Cabeção",
+        "Descricao": "O Pelourinho de Cabeção situa-se no largo da Junta de freguesia em Cabeção, no município de Mora, no distrito de Évora. O pelourinho foi classificado como Imóvel de Interesse Público a 11 de Outubro de 1933.",
+        "Tipo": "património cultural",
         "Localizacao": "Cabeção,Portugal",
         "score": 0.74164414
     },
     {
         "id": "1341",
         "Nome": "Pelourinho de Ervededo",
+        "Descricao": "O Pelourinho de Ervededo é um pelourinho situado na freguesia de Ervededo, no município de Chaves, distrito de Vila Real, em Portugal.",
+        "Tipo": "património cultural",
         "Localizacao": "Ervededo,Portugal",
         "score": 0.7409271
     },
     {
         "id": "1442",
         "Nome": "Pelourinho de Vilarinho da Castanheira",
+        "Descricao": "O Pelourinho de Vilarinho da Castanheira localiza-se na freguesia de Vilarinho da Castanheira, no município de Carrazeda de Ansiães, distrito de Bragança, em Portugal. Este pelourinho encontra-se classificado como Imóvel de Interesse Público desde 1933.",
+        "Tipo": "património cultural",
         "Localizacao": "Vilarinho da Castanheira,Portugal",
         "score": 0.74043953
     },
     {
         "id": "1456",
         "Nome": "Pelourinho de Águas Belas",
+        "Descricao": "O Pelourinho de Águas Belas situa-se em Águas Belas no município de Ferreira do Zêzere, distrito de Santarém.",
+        "Tipo": "património cultural",
         "Localizacao": "Águas Belas,Portugal",
         "score": 0.7402263
     },
     {
         "id": "1458",
         "Nome": "Pelourinho de Água de Peixes",
+        "Descricao": "O Pelourinho de Água de Peixes localiza-se na freguesia de Alvito, no município do mesmo nome, distrito de Beja, em Portugal.",
+        "Tipo": "património cultural",
         "Localizacao": "Alvito,Portugal",
         "score": 0.7399796
     },
     {
         "id": "1374",
         "Nome": "Pelourinho de Mirandela",
+        "Descricao": "O Pelourinho de Mirandela, do qual não restam vestígios, localizava-se na freguesia de Mirandela, município de Mirandela, distrito de Bragança, em Portugal.",
+        "Tipo": "património cultural",
         "Localizacao": "Mirandela,Portugal",
         "score": 0.73925465
     },
     {
         "id": "1014",
         "Nome": "Forte Novo",
+        "Descricao": "O chamado Forte Novo localiza-se na EN 6, fronteiro à Pedra da Nau, entre a ponta de Santa Marta e a Boca do Inferno, na Freguesia e no Município de Cascais, Distrito de Lisboa, em Portugal.",
+        "Tipo": "património cultural",
         "Localizacao": "Cascais",
         "score": 0.73913985
     },
     {
         "id": "1321",
         "Nome": "Pelourinho de Caniçada",
+        "Descricao": "O Pelourinho de Caniçada, também referido como Pelourinho de Ribeira do Soaz, localiza-se na freguesia de Caniçada e Soengas, no município de Vieira do Minho, distrito de Braga, em Portugal. Encontra-se classificado como Imóvel de Interesse Público desde 1933 integrado no conjunto constituído pelos Antigos Paços dos Concelho, Pelourinho e Pedra de Armas de Ribeira de Soaz.",
+        "Tipo": "património cultural",
         "Localizacao": "Caniçada e Soengas,Portugal",
         "score": 0.73789656
     },
     {
         "id": "1330",
         "Nome": "Pelourinho de Chacim",
+        "Descricao": "O Pelourinho de Chacim localiza-se na Praça do Pelourinho na freguesia de Chacim, no município de Macedo de Cavaleiros, distrito de Bragança, em Portugal.",
+        "Tipo": "património cultural",
         "Localizacao": "Chacim,Portugal",
         "score": 0.737203
     }
