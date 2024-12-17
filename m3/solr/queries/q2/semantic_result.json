@@ -2,36 +2,47 @@
     {
         "id": "1018",
         "Nome": "Igreja da Lapa (Arcos de Valdevez)",
+        "Descricao": "A Igreja da Lapa localiza-se na freguesia de União das Freguesias de Arcos de Valdevez (Salvador), Vila Fonche e Parada, na vila de Arcos de Valdevez, no distrito de Viana do Castelo, em Portugal.",
+        "Tipo": "património cultural",
         "Estilo": "Barroco",
         "score": 0.7705912
     },
     {
         "id": "1071",
         "Nome": "Igreja de Nossa Senhora do Carmo (Viana do Castelo)",
+        "Descricao": "A Igreja de Nossa Senhora do Carmo localiza-se na cidade e distrito de Viana do Castelo, em Portugal.",
+        "Tipo": "igreja, património cultural",
         "Localizacao": "Viana do Castelo (Santa Maria Maior e Monserrate) e Meadela, - Portugal",
         "score": 0.7384454
     },
     {
         "id": "1213",
         "Nome": "Mosteiro de Vila Boa do Bispo",
+        "Descricao": "O Mosteiro de Vila Boa do Bispo situa-se na freguesia de Vila Boa do Bispo, concelho de Marco de Canaveses em Portugal. Tem estilo barroco, especialmente evidente na talha dourada presente no interior. Tem também influências góticas (verticalidade da fachada). Possui várias imagens religiosas e a que mais se evidência é o cristo no final de nave principal da igreja.",
+        "Tipo": "património cultural",
         "Localizacao": "Vila Boa do Bispo,Portugal",
         "score": 0.7354348
     },
     {
         "id": "447",
         "Nome": "Igreja de Santa Clara (Porto)",
+        "Descricao": "A Igreja de Santa Clara é um templo católico localizado na freguesia da Sé, na cidade do Porto, em Portugal. No seu interior podemos encontrar um dos melhores exemplares da arte da talha dourada do Barroco Joanino.\nConstruída ao lado do mais visível lanço das Muralhas Fernandinas, a Igreja de Santa Clara ficou concluída em 1457, assim com o mosteiro com o qual fazia conjunto. Tal deveu-se a um pedido das freiras franciscanas clarissas que pretendiam ser transferidas do mosteiro anterior, do século XIII, situado no couto de Entre Ambos-os-Rios, atual Torrão.\nCom a supressão de vários mosteiros mais pequenos nas diversas localidades entre o século XV e o século XVI, as freiras foram-se agregando em Santa Clara levando para lá as suas rendas, sendo uma delas uma portagem por todas as mercadorias que passavam pelo Rio Douro.\nNo finais do século XIX, com a morte da última freira, o mosteiro foi extinto o que causou alguma degradação do edifício. Posteriormente, património do estado, e feitas as obras necessárias foi adaptado para Centro de Saúde e outras instituições.\nA entrada da igreja é feita através de uma porta barroca, datada de 1697 e reformulada no século XVIII, com elementos renascentistas como colunas salomónicas e capitéis coríntios. No interior podemos vislumbrar toda a magnificiência desta igreja, toda coberta por talha dourada da primeira metade do século XVIII.\nA “Operação Igreja de Santa Clara do Porto” teve início em 2016 e terminou em 2021. As obras orçadas em cerca de 2,5 milhões de euros incidiram sobre o sistema construtivo e estrutural do edifício, a remodelação das infraestruturas elétricas, de telecomunicações e de segurança, a redução de barreiras arquitetónicas e a criação de condições de visita.\nTambém o património integrado foi alvo de uma intervenção profunda. Cerca de uma centena de trabalhadores da área da conservação e restauro, de diferentes especialidades, integraram a intervenção de todo o espólio artístico do imóvel, englobando a talha dourada e policromada, a escultura, a pintura de cavalete, a pintura mural, a pedra, o azulejo, os metais e o património organístico.\nAo longo da intervenção foram descobertos detalhes do edifício até agora desconhecidos. São exemplo disso algumas pinturas em madeiras, datadas do século XVII, que ilustram santos, nomeadamente Santa Clara, uma lápide de granito de 1645 que informa da obrigatoriedade de ser rezada missa diária pela alma do abade de Vandoma, ali sepultado, ou até pinturas de anjos alados escondidas sob a talha que seriam mais antigas.",
         "Localizacao": "Sé",
         "score": 0.7283751
     },
     {
         "id": "918",
         "Nome": "Cruzeiro de Covas do Barroso",
+        "Descricao": "O Cruzeiro de Covas do Barroso é um cruzeiro que se situa na freguesia de Covas do Barroso, município de Boticas, no Distrito de Vila Real.",
+        "Tipo": "património cultural",
         "Localizacao": "Covas do Barroso,Portugal",
         "score": 0.7282617
     },
     {
         "id": "750",
         "Nome": "Casa da Portela",
+        "Descricao": "A Casa da Portela é um palacete localizado na freguesia de Paços de Brandão, no município de Santa Maria da Feira, distrito de Aveiro, em Portugal.",
+        "Tipo": "património cultural",
         "Estilo": "arquitetura da idade média",
         "Localizacao": "Paços de Brandão,Portugal",
         "score": 0.72772264
@@ -39,18 +50,24 @@
     {
         "id": "117",
         "Nome": "Anta da Barrosa",
+        "Descricao": "A Anta da Barrosa, também referida como Dólmen da Barrosa e Lapa dos Mouros, localiza-se na freguesia de Vila Praia de Âncora, município de Caminha, distrito de Viana do Castelo, em Portugal.\nTrata-se de um monumento megalítico erguido no final do século XXX a.C. (período Neolítico), classificado como Monumento Nacional desde 1910.\nApesar de ser monumento nacional, o Dólmen da Barrosa esteve localizado em terreno privado, e praticamente escondido pelos muros altos de uma quinta.\nOs terrenos onde o monumento de encontra estavam em litígio judicial e, em 2016, a Câmara Municipal de Caminha pagou uma indemnização de 240 mil euros.\nA autarquia vai remodelar toda a área envolvente da anta com rebaixamento de muros, plantação de árvores autóctones e a remoção da antiga pista de ‘skate’. O projeto de remodelação surgiu de uma candidatura ao primeiro Orçamento Participativo de Caminha. O investimento ronda os 28 mil euros.\nNuma segunda fase, será construído no local um núcleo Museológico do Megalítico. A candidatura para o Núcleo Megalítico foi apresentada em 2016 ao programa ‘Norte 2020’, mas a ainda não foi aprovada.",
+        "Tipo": "anta património cultural",
         "Localizacao": "Vila Praia de Âncora Portugal",
         "score": 0.72647583
     },
     {
         "id": "733",
         "Nome": "Capela do Senhor das Barrocas",
+        "Descricao": "A Capela do Senhor das Barrocas localiza-se na atual freguesia da Glória e Vera Cruz, no Município de Aveiro, Distrito de Aveiro, em Portugal.",
+        "Tipo": "património cultural",
         "Localizacao": "Glória e Vera Cruz,Portugal",
         "score": 0.72631276
     },
     {
         "id": "1504",
         "Nome": "Quinta das Lapas",
+        "Descricao": "A Quinta das Lapas é um dos mais importantes monumentos do concelho de Torres Vedras, situando-se em Monte Redondo. Encontra-se classificado pela Direcção-Geral dos Edifícios e Monumentos Nacionais (DGEMN), datando a sua construção de finais do século XVII, mandado construir pelo 1º Marquês do Alegrete, Manuel Teles da Silva, e concluída no século XVIII.",
+        "Tipo": "património cultural",
         "Localizacao": "Maxial e Monte Redondo,Portugal",
         "score": 0.72555214
     },
@@ -59,11 +76,14 @@
         "Nome": "Igreja e Torre dos Clérigos",
         "Estilo": "Barroco ;",
         "Localizacao": "Porto",
+        "Descricao": "A Igreja e Torre dos Clérigos (século XVIII) é um notável conjunto arquitetónico situado na cidade do Porto, Portugal, sendo considerado o cartão-postal dessa cidade.\nO conjunto localiza-se no topo da Rua dos Clérigos, entre as ruas de São Filipe Néri (ou São Filipe Nery) e da Assunção. Integra três elementos principais: a Igreja dos Clérigos, a Torre dos Clérigos e a Casa da Irmandade, que liga a igreja e a torre e em tempos acolheu os outros serviços da Irmandade dos Clérigos. Projetado pelo arquiteto Nicolau Nasoni, este conjunto é um dos mais notáveis exemplos do estilo tardo-barroco em território português e encontra-se classificado como Monumento Nacional desde 1910. É considerada a obra mais emblemática de Nasoni, incorporando, na ornamentação granítica, \"uma dinâmica morfologia rococó a par de linhas de continuidade vernácula, senão mesmo epimaneirista\". Os elementos arquitetónicos mais marcantes do conjunto caracterizam-se pela irregularidade e exagero das formas, que originam um efeito cénico surpreendente. \"Salientam-se as plantas irregulares, as fachadas onduladas, realçadas por uma contraposição de saliências, sacadas e reentrâncias, arcos interrompidos, e uma grande profusão de variadas janelas, complementadas pela exuberante torre sineira\".\nNasoni foi enterrado nesta igreja, na qual empenhou muito tempo e dedicação, tendo sido revelada, na ampla reabilitação realizada recentemente, uma cripta onde poderá encontrar-se a sua sepultura.\nA história do conjunto arquitetónico dos Clérigos prende-se com a Irmandade dos Clérigos, uma associação de fiéis que foi fundada no início do século XVIII com o objetivo de prestar assistência ao clero. A criação efetiva desta irmandade teve lugar entre abril e junho de 1707 e resultou da fusão de três confrarias portuenses de clérigos seculares que tinham como missão comum ajudar os clérigos na pobreza, na doença e na morte: a Confraria de Nossa Senhora da Misericórdia dos Clérigos Pobres, a Congregação de São Filipe Néri e a Irmandade de São Pedro «ad Vincula» (São Pedro acorrentado). A Irmandade dos Clérigos teria como padroeiros Nossa Senhora da Assunção (padroeira principal), São Pedro e São Filipe Néri, o que se reflete na configuração do brasão da Irmandade, que conjuga o monograma de Maria (AM), as chaves e a tiara papal de São Pedro e a açucena de S. Filipe Néri.\nNum tempo em que em Portugal o clero era muito numeroso, muitos dos seus membros enfrentavam grandes dificuldades ao longo da vida, pelo que a concentração de toda a assistência numa única instituição representou um assinalável volume de serviços e uma dinâmica que rapidamente tornou clara a insuficiência das instalações iniciais, localizadas em casa emprestada: a Igreja da Misericórdia. Na década de 1720 começou a ser equacionada a construção de instalações próprias, o que viria a concretizar-se na década seguinte na sequência da doação de um terreno no então designado lugar da Cruz da Cassoa, uma zona com conotações negativas devido à proximidade do Adro dos Enforcados, local de execução de sentenças de morte e sepultamento dos condenados.\nA necessidade urgente de um espaço próprio permitiu ultrapassar os estigmas resultantes da peculiar vizinhança e, em 1731, quando era presidente o deão Jerónimo de Távora e Noronha, foi solicitado um projeto para a nova igreja a Nicolau Nasoni, um italiano originário da Toscânia que chegara a Portugal seis anos antes, vindo de Malta (onde trabalhou para António Manuel de Vilhena, grão-mestre da Ordem de Malta), para realizar trabalhos na Sé do Porto. Ao longo de mais de três décadas Nasoni viria a ser autor não apenas da igreja mas de todo o conjunto dos Clérigos. Esta extensa edificação foi implantada num local difícil, com declive acentuado, o que exigiu grande cuidado na adaptação ao terreno; tem uma disposição longitudinal, com um longo corpo central a ligar os dois elementos mais marcantes do conjunto, a igreja e a torre, posicionadas nos extremos. No essencial podem distinguir-se três etapas de construção: primeiro foi construída a igreja (1732-1749), seguindo-se o edifício da Irmandade, que liga a igreja à torre (1754-1758) e, por último, a emblemática torre (1754-1763). Foram responsáveis pela obra o mestre pedreiro António Pereira (que abandonou o cargo ainda em 1732 devido a desentendimentos com a Irmandade), o entalhador Miguel Francisco da Silva e, na última fase, o mestre Manuel António de Sousa.\nAs obras de construção da igreja foram demoradas. Tiveram início em 1732, prolongando-se até 1749, com uma interrupção entre 1734 e 1745 e mudanças de rumo quanto a alguns aspetos estruturais e da configuração final do edifício, ficando a fachada terminada em 1750. A primeira missa foi celebrada em 1748, com o templo ainda por terminar, mas a sagração só teria lugar muitos anos depois de terminado o conjunto, em 1779.\nA igreja foi construída essencialmente em granito e apresenta uma nave única, coberta por cúpula, com o brasão da Irmandade dos Clérigos ao centro. A planta é elíptica e nas duas paredes laterais abrem-se dois púlpitos de pregação e quatro altares – altar do Santíssimo Sacramento, de Nossa Senhora das Dores (ou do Senhor morto), de Santo André Avelino e de São Bento. A opção pelo abandono de duas torres laterais, inicialmente previstas no alinhamento dos púlpitos, obrigou a um reforço estrutural, determinando a construção de paredes exteriores duplas, mais estáveis, com corredores de passagem em serventia rodeando a nave, que permitem aceder a zonas mais elevadas como o coro-alto e disfrutar da visão interior da nave e da capela-mor a partir de pontos de vista inesperados. A capela-mor, oblonga, foi alvo de diversas modificações importantes a partir de 1750 – aquando da construção do corpo central, entre a igreja e a torre –, e acolhe um altar-mor em mármore de várias cores, de inspiração rococó e com risco de Manuel dos Santos Porto (executado entre 1767 e 1780 pelo canteiro Joaquim da Silva Mafra), onde se destaca, ao centro em posição elevada, a imagem de Nossa Senhora da Assunção e, nos flancos, as imagens em madeira policromada de São Pedro ad Vincula e S. Filipe Néri. De um lado e de outro da capela-mor localizam-se, em posição simétrica, cadeirais em madeira de Jacaranda ricamente trabalhada (1774-1777) e, acima deles, dois órgãos ibéricos de talha barroca (1774-1779) que permanecem funcionais no presente.\nEstilisticamente o edifício revela o domínio de fontes do classicismo romano seiscentista, que Nasoni adequa à ambiência, aos gostos e materiais disponíveis, sem deixar de seguir, na estrutura oval da nave e no barroquismo da fachada, modelos romanos – de Carlo Rainaldi, em Santa Maria in Campitelli, por exemplo –, completamente invulgares no panorama construtivo portuense da época. A fachada é relativamente estreita, o que acentua a sua altura e monumentalidade, apresentando uma composição cenográfica que encobre o corpo da igreja e tira partido de um amplo leque de elementos decorativos de cariz tardo-barroco (comuns à formação pictórica de Nasoni); é antecedida por uma escadaria dupla de lanços cruzados [nota 1] que permite o acesso à Capela da Senhora da Lapa, situada por baixo da igreja e que em tempos terá servido de casa mortuária. Encimada por um frontão pontuado pela Cruz Papal de três braços e pelo monograma de Maria (com o A e o M entrelaçados), a fachada integra, na zona superior, uma janela ladeada por dois nichos com as imagens em pedra de S. Pedro e S. Filipe Néri. Nesta frontaria o trabalho decorativo atinge o auge, \"sendo talvez a linguagem mais barroca presente em todo o edifício, na qual Nasoni combina linhas retas com linhas semicirculares, decorando-a com motivos ornamentais e simbólicos, entre os quais cartelas, grinaldas, festões, volutas, feixes vegetalistas, jarrões e fogaréus\".\nConcluída a igreja, a irmandade começou a pensar na necessidade de se construírem instalações adicionais capazes de viabilizar a ampliação da capela-mor e de acolher um conjunto de serviços imprescindíveis. Em 1750 a Irmandade adquire o terreno denominado Adro dos Enforcados e, três anos mais tarde, com a doação do restante terreno necessário, têm início as obras de construção da Casa da Irmandade, que se prolongam até 1758. Este edifício apresenta uma sobriedade em tudo distinta da sobrecarga decorativa da igreja. Nasoni opta por um esquema arquitetónico mais tradicional, com uma planta de paredes retas dispostas ortogonalmente, exceto na zona de afunilamento que faz a transição para a torre. Genericamente, foram quatro as valências consideradas para o novo edifício: residência do reitor, salão nobre e arquivo, enfermaria e residência para padres necessitados. Esta foi, por assim dizer, a primeira casa sacerdotal do país.\nHoje, a Casa da Irmandade foi transformada em espaço museológico, propiciando um recuo no tempo e permitindo o acesso a zonas que em tempos foram privadas e destinadas ao quotidiano da Irmandade dos Clérigos. No Salão Nobre (ou Casa do Despacho) encontramos uma mesa monumental. Era aqui que se reuniam os mesários da Irmandade para discutir e decidir sobre matérias de gestão administrativa e financeira. Ao longo das paredes dispõem-se pinturas retratando figuras de relevo da Irmandade (presidentes, tesoureiros e beneméritos) e, na parede de topo, destaca-se o painel de Nossa Senhora da Assunção. Percorrendo as outras dependências, a Sala do Cofre, o Cartório, ou a antiga enfermaria, \"percebe-se que o Museu possui um acervo constituído por bens culturais de valor artístico considerável, do século XIII até ao século XX, que se espraia nas coleções de escultura, pintura, mobiliário e ourivesaria. [...] A enfermaria da Irmandade dos Clérigos que funcionou até finais do século XIX dedicada ao tratamento dos clérigos doentes, foi convertida num espaço expositivo, e acolhe atualmente a coleção Christus. Esta exposição, concebida a partir da doação de uma coleção por parte de um colecionador particular, [...] conta uma história complementada com objetos, outrora de devoção, considerados hoje legados culturais de interesse\".\nDe entre as peças artísticas guardadas no conjunto dos Clérigos destaque-se a Urna do Santíssimo Sacramento, hoje situada no coro-alto. Da autoria de Nasoni, esta peça única em talha dourada é encimada pelo Cordeiro de Deus; a decoração é profusa e integra cruzes em grinaldas, anjos e vários elementos espelhados. Esta urna sacrário destinava-se a colocar a hóstia consagrada («Sagrada Reserva» ou «Reserva Eucarística») na Quinta-feira Santa, após celebração da Missa que evoca a instituição da Eucaristia, na Última Ceia. De entre tantas outras peças de valor, assinalem-se ainda o acima citado painel de Nossa Senhora da Assunção, com a imagem de Nossa Senhora a ser levada ao Céu por um conjunto de anjos (no Salão Nobre), a imagem do Arcanjo S. Miguel (situada em frente à atual entrada do monumento, na Rua de São Filipe Nery), ou a imagem do Senhor dos Esquecidos da Salvação, que em tempos pertenceu ao altar localizado no topo da enfermaria.\nNo ano de 1753, a pedido da Irmandade dos Clérigos, Nicolau Nasoni apresentou o projeto para uma torre sineira para o conjunto dos Clérigos, que haveria de substituir as duas torres inicialmente previstas para as fachadas laterais da igreja. No ano seguinte iniciavam-se as obras daquela que viria a ser \"a mais bela e altaneira Torre, dominando toda a paisagem urbana do Porto\". Em 1763, depois de colocadas a cruz de ferro no topo e a imagem de São Paulo no nicho sobre a porta, as obras desta obra maior do arquiteto italiano e verdadeiro ex-libris da cidade do Porto foram dadas por concluídas.\nConstruída em granito, as características estilísticas Torre dos Clérigos são consideradas exemplares da espetacularidade do barroco. Segundo Vítor Serrão, esta obra assemelha-se no perfil e na linguagem barroco-romana à Torre Nueva da Sé de Saragoça do italiano Giovan Battista Contini, que Nasoni pode não ter conhecido, mas que revela o domínio das mesmas fontes do classicismo romano do século XVII.  A Torre dos Clérigos ergue-se a uma altura de 75 metros e é escalonada em seis andares de escala diversa, terminando num belo e audacioso coroamento. Na fachada frontal abre-se a porta de entrada, encimada por um nicho com a imagem de São Paulo [nota 2] . Possui dois campanários e um carrilhão com 49 sinos, um dos maiores do país (adquirido em 1995). A comunicação vertical realiza-se através de uma escada interior com um total de 225 degraus, que dá acesso a dois varandins, em níveis diferenciados, de onde se disfruta uma ampla vista panorâmica sobre a cidade do Porto e arredores. \"Numa perspetiva a 360°, o visitante frui de um momento único, quer de dia ou de noite, quando em épocas especiais, a torre abre as suas portas até às 23h00. A Torre dos Clérigos é incontestavelmente o ex-líbris da cidade, e um excelente miradouro sobre esta\".\nPara além de servir como torre sineira, esta edificação teve outras utilizações ao longo dos anos: serviu para marcar o tempo (através de um disparo diário de pólvora seca que assinalava o meio dia); foi telégrafo comercial; foi utilizada como marco de orientação para as embarcações que rumavam no rio Douro; serviu para hastear uma bandeira quando chegava o \"paquete\" para que os comerciantes soubessem da sua aproximação; foi ponto estratégico para combates militares e políticos; e nos dias de hoje é, indubitavelmente, uma das mais importantes atrações turísticas da cidade do Porto.\nA torre recebeu 665 785 visitantes em 2017.\nO conjunto dos Clérigos é consensualmente considerado uma obra de referência, não apenas no que respeita ao período barroco em território português, mas no próprio âmbito do rico e diversificado património arquitetónico da cidade do Porto. Ouçamos as palavras do historiador Paulo Pereira:\nO conjunto foi alvo de um importante programa de restauro já no século XXI, tendo sido reinaugurado a 12 de dezembro de 2014, com missa solene e a presença do primeiro ministro de Portugal. O Restauro e Recuperação da Igreja e Torre dos Clérigos, da autoria do Arq.º João Carlos dos Santos, recebeu desde então diversos prémios: menção honrosa no prémio IHRU 2015; Prémio Vasco Vilalva para a recuperação e valorização do património 2015; Prémio da União Europeia para o Património Cultural / Prémios Europa Nostra 2017.\nEm dezembro de 2015 a Irmandade ofereceu a chave dos Clérigos ao presidente da Câmara do Porto, num gesto simbólico de abertura à comunidade.\nEste conjunto histórico encontra-se aberto ao público, permitindo a sua visita, com entrada pela Rua de São Filipe Nery. Em junho de 2015, a Irmandade dos Clérigos anunciou que, ao fim de 250 anos, o monumento abrirá as suas portas em horário noturno mediante uma marcação prévia. Em 2016, a Igreja e Torre dos Clérigos registou 625 mil visitantes, maioritariamente estrangeiros. Em termos percentuais destaquem-se os espanhóis (45%), seguidos dos portugueses (15%), franceses (13%), brasileiros (7%), alemães (5%) e britânicos (3%).",
         "score": 0.7242254
     },
     {
         "id": "999",
         "Nome": "Forte de São Julião da Barra",
+        "Descricao": "O Forte de São Julião da Barra (antigamente dito Forte ou Torre de São Gião) constitui o maior e mais completo complexo militar de defesa no estilo Vauban remanescente em Portugal. Localiza-se em São Julião da Barra, na ponta de São Gião, extremo oeste de Oeiras, na freguesia de Oeiras e São Julião da Barra, Paço de Arcos e Caxias.",
+        "Tipo": "património cultural",
         "Estilo": "Abaluartado",
         "Localizacao": "Oeiras e São Julião da Barra",
         "score": 0.7237837
@@ -71,41 +91,53 @@
     {
         "id": "984",
         "Nome": "Forte de Santiago da Barra",
+        "Descricao": "O Forte de Santiago da Barra, também referido como Castelo de Santiago da Barra e Castelo de São Tiago Maior da Barra, localiza-se na atual freguesia de Viana do Castelo (Santa Maria Maior e Monserrate) e Meadela, na cidade, município e distrito de Viana do Castelo, em Portugal.",
+        "Tipo": "património cultural",
         "Localizacao": "Monserrate",
         "score": 0.72139215
     },
     {
         "id": "922",
         "Nome": "Cruzeiro de São Pedro de Arcos",
+        "Descricao": "O Cruzeiro de São Pedro de Arcos localiza-se na freguesia de São Pedro d'Arcos, no município de Ponte de Lima, distrito de Viana do Castelo, em Portugal.",
+        "Tipo": ",património cultural",
         "Localizacao": "São Pedro d'Arcos,Portugal",
         "score": 0.7213066
     },
     {
         "id": "253",
         "Nome": "Capela de Nossa Senhora do Desterro",
+        "Descricao": "A Capela de Nossa Senhora do Desterro é uma capela situada na freguesia de Alcobaça, município de Alcobaça, Portugal.\nEstá classificada como Monumento Nacional desde 16 de Junho de 1910.\nÉ uma capela de estilo barroco, desenhada em 1716 pelo Padre Frei Luís de São José.\nFica situada no Jardim das Murtas, dentro da cerca do Mosteiro de Alcobaça, em local inacessível, encontrando-se fechada ao público.",
+        "Tipo": "capela património cultural",
         "Localizacao": "Alcobaça e Vestiaria Portugal",
         "score": 0.71756583
     },
     {
         "id": "1116",
         "Nome": "Igreja de São Pedro (Almargem do Bispo)",
+        "Descricao": "A Igreja de Almargem do Bispo, também conhecida por Igreja de São Pedro, locaiza-se em Almargem do Bispo, no Concelho de Sintra, Portugal.",
         "score": 0.71675754
     },
     {
         "id": "586",
         "Nome": "Igreja de Santa Maria de Barrô",
+        "Descricao": "A Igreja de Santa Maria de Barrô ou Igreja de Nossa Senhora da Assunção é uma igreja românica situada em Barrô, no município de Resende em Portugal.\nO edifício começou a ser construído no século XII por iniciativa de Egas Moniz, o Aio, mediante doação de Afonso Henriques. Na geração seguinte o padroado foi doado aos Hospitalários. No século XVII foi construída a torre sineira e durante o auge do Barroco foram realizados os retábulos em talha dourada. Em 1890 a fachada principal foi intervencionada e nas décadas de 1950 e 1960 a igreja foi restaurada.\nEm 1922 foi classificada como monumento nacional e está integrada na Rota do Românico.",
+        "Tipo": "igreja património cultural",
         "Localizacao": "Barrô Portugal",
         "score": 0.71647084
     },
     {
         "id": "771",
         "Nome": "Casa dos Calistos",
+        "Descricao": "A Casa dos Calistos ou Casa das Pachecas é uma casa nobre situada na vila de Ponte de Lima, em Portugal. Foi edificada no século XVIII em estilo barroco, embora apresente uma estrutura de estilo Chão característica da arquitetura senhorial do século anterior. Em 1993 foi classificada como Imóvel de Interesse Público.",
+        "Tipo": "património cultural",
         "Localizacao": "Ponte de Lima",
         "score": 0.71421266
     },
     {
         "id": "466",
         "Nome": "Igreja do Carmo (Porto)",
+        "Descricao": "A Igreja do Carmo ou Igreja da Venerável Ordem Terceira de Nossa Senhora do Carmo, localiza-se no cruzamento entre a Praça de Carlos Alberto e a Rua do Carmo, nas proximidades da Igreja e Torre dos Clérigos, na freguesia portuguesa da Vitória  cidade do Porto.\nDe estilo barroco/rococó, foi construída na segunda metade do século XVIII, entre 1756 e 1768, pela Ordem Terceira do Carmo, sendo o projecto do arquitecto José Figueiredo Seixas. A construção do hospital começou mais tarde, ficando concluído em 1801.\nEsta igreja foi edificada num terreno contíguo à Igreja dos Carmelitas, do lado oeste, cedido à Ordem em 1752. Por não ser então permitida a construção de duas Igrejas juntas, foi edificada entre ambas a chamada Casa Escondida do Porto que separa as duas igrejas e tem pouco mais de 1 metro e meio de largura.\nFoi classificada como Monumento Nacional a 3 de Maio de 2013, em conjunto com a Igreja dos Carmelitas adjacente.\nEm anos recentes a Ordem do Carmo procurou abrir o seu vasto património à visita do público. Inicialmente abriu a \"Casa Escondida\", considerada por guias locais como a \"Casa mais estreita da cidade do Porto\", e uma das mais estreitas do país. Foi abrindo pouco a pouco novos espaços do seu recheio, estando hoje em dia disponível a visita ao Circuito Turístico da Ordem do Carmo. Por uma pequena quantia (3,5 euros) realiza-se através da Casa Escondida uma visita à Casa, Igreja, Catacumbas (de pequenas dimensões), Salão Nobre, Sala dos Paramentos e Sacristia, permitindo um vislumbre ao rico património móvel e imóvel da Ordem, que inclui pinturas, esculturas, vestes litúrgicas e relíquias. Parte do bilhete apoia o restauro de bens patrimoniais da Ordem. Esta visita é possível de Terça a Domingo entre as 10 e as 18 horas; às segundas inicia-se às 12 e termina às 18. Não é possível a realização do circuito completo sempre que há missa (todos os dias às 9:30 e 15 horas), rosário (todos os dias às 14:30)  ou casamento (esporadicamente e sob marcação), mantendo-se nessas alturas a possibilidade de visitar a Casa Escondida pelo preço de 2 euros por pessoa.\nRealizam também visitas guiadas mediante marcação.\nA fachada apresenta, em lugar de relevo, Santa Ana, a quem a Ordem Carmelitana professava grande devoção, porque, segundo as crónicas, apareceu a um grupo de Carmelitas dos primeiros tempos. É também a patrona desta igreja. Dois nichos que ladeiam a porta de entrada albergam as imagens dos profetas Elias e Eliseu, os dois modelos mais representativos da Ordem. No corpo superior da frontaria, coruchéus e esculturas das figuras dos quatro Evangelistas, revelando influências do estilo “barroco Italiano” criado por Nicolau Nasoni.\nA fachada lateral da Igreja do Carmo está revestida por um grandioso painel de azulejos, representando cenas alusivas à fundação da Ordem Carmelita e ao Monte Carmelo. A composição foi desenhada por Silvestre Silvestri, pintada por Carlos Branco e executada nas fábricas do Senhor do Além e da Torrinha, em Vila Nova de Gaia, e datados de 1912.\nNo interior da Igreja do Carmo, destaca-se a excelente talha dourada nas capelas laterais e no altar-mor, a estatuária e diversas pinturas a óleo.\nO seu programa iconográfico relaciona-se com a Paixão, um dos temas característicos dos Carmelitas. Neste caso, as imagens esta dispostas segundo um percurso descendente, a partir do lado da Epístola: Agonia no Horto, Prisão do Senhor, Flagelação, Senhor da Cana Verde, Ecce Homo, Senhor a Caminho do Calvário. Conclui na Crucificação: cruz do altar-mor e com a pintura da Ressurreição de Cristo, no tecto.",
         "Estilo": "Rococó",
         "Localizacao": "Porto",
         "score": 0.7120186
@@ -113,30 +145,40 @@
     {
         "id": "1081",
         "Nome": "Igreja de Santa Maria (Covas do Barroso)",
+        "Descricao": "A Igreja de Santa Maria, ou Igreja Paroquial de Covas do Barroso, é um templo cristão que se situa na freguesia de Covas do Barroso, município de Boticas, no Distrito de Vila Real.",
+        "Tipo": "património cultural",
         "Localizacao": "Covas do Barroso,Portugal",
         "score": 0.71036184
     },
     {
         "id": "1113",
         "Nome": "Igreja de São Miguel (Lisboa)",
+        "Descricao": "A Igreja de São Miguel encontra-se situada na freguesia de Santa Maria Maior, em Lisboa, Portugal.",
+        "Tipo": "património cultural",
         "Localizacao": "Santa Maria Maior,Portugal",
         "score": 0.70721596
     },
     {
         "id": "990",
         "Nome": "Forte de São Bruno",
+        "Descricao": "O Forte de São Bruno (de Caxias) localiza-se em Caxias, na confluência da ribeira de Barcarena com o Estuário do Tejo. Pertence à freguesia de Oeiras e S. Julião da Barra, Paço de Arcos e Caxias, Município de Oeiras, Costa de Lisboa.",
+        "Tipo": "património cultural",
         "Localizacao": "Caxias",
         "score": 0.7062441
     },
     {
         "id": "605",
         "Nome": "Antas do Barrocal",
+        "Descricao": "As Antas do Barrocal é um conjunto de dólmenes no Monte do Barrocal, em Nossa Senhora da Tourega, Évora, Portugal. Em conjunto com as antas do Monte do Álamo a norte do Barrocal até ao conjunto do Zambujeiro mais a norte constitui uma zona de alta concentração de vestígios megalíticos. \nDe entre as antas destaca-se a Anta 1 38° 30′ 29″ N, 8° 00′ 20″ O com corredor do período Neo-Calcolítico/Calcolítico, uma câmara poligonal quase intacta, com 2 metros de altura e 3 metros de diâmetro, com sete esteios verticais e uma laje de cobertura. Restam apenas 2 esteios fracturados do corredor, à boca da câmara. Da mamoa que a deverá ter uma dia coberto não restam quaisquer vestígios evidentes.\nTrata-se de um Monumento Nacional assim classificado desde 1910.\nA uma centena de metros a poente da Anta 1 encontra-se a Anta 2 38° 30′ 33″ N, 8° 00′ 24″ O, também ela com laje de cobertura e privada de mamoa.\nAlém destas duas, mais sete antas foram identificadas nas proximidades do Monte.",
+        "Tipo": "anta património cultural",
         "Localizacao": "Nossa Senhora da Tourega e Nossa Senhora de Guadalupe Portugal",
         "score": 0.705088
     },
     {
         "id": "1600",
         "Nome": "Igreja de São Nicolau de Canaveses",
+        "Descricao": "De Comboio Linha do Douro (Comboios Urbanos Porto-Marco ou Comboios Regionais Porto-Régua/Pocinho), com saída na estação de Marco de Canaveses: Igreja de São Nicolau a 3 km. Consulte aqui todos os horários e preços. De Carro Se vem do Norte de Portugal através da A28 (Porto), da A3 (Porto), da A24 (Chaves/Viseu), da A7 (Póvoa de Varzim) ou da A11 (Esposende/Marco de Canaveses) siga na direção da A4 (Bragança/Matosinhos). Saia para o Marco de Canaveses. Logo depois de cruzar o rio Tâmega encontrará a sinalização da Igreja de São Nicolau. A partir do Porto opte pela A4 (Vila Real). Saia para o Marco de Canaveses. Se vem do Centro ou Sul de Portugal pela A1 (Porto) ou pela A29 (V.N. Gaia) opte pela A41 CREP (Vila Real). Escolha depois a A4 (Vila Real) e saia para o Marco de Canaveses. Se já se encontra na cidade do Marco de Canaveses, rume à margem do rio Tâmega e à Igreja de São Nicolau.",
+        "Tipo": "Igreja",
         "Estilo": "Românico",
         "Localizacao": "Rua de S. Nicolau, São Nicolau, Marco de Canaveses, Porto",
         "score": 0.70365816
@@ -144,24 +186,31 @@
     {
         "id": "949",
         "Nome": "Farol do Forte da Barra",
+        "Descricao": "O Farol do Forte da Barra, ou Farolim do Forte da Barra, é um farol português que se localiza no Forte da Barra de Aveiro, classificado como Imóvel de Interesse Público (IIP) pelo IPPAR, na freguesia da Gafanha da Nazaré, concelho de Ílhavo, distrito de Aveiro, no Baixo Vouga, no Centro de Portugal.",
         "Localizacao": "Ílhavo,Portugal",
         "score": 0.70239353
     },
     {
         "id": "765",
         "Nome": "Casa de Selores",
+        "Descricao": "A Casa de Selores é uma residência classificada como Imóvel de Interesse Público, em 1977, localizada na freguesia portuguesa de Lavandeira, Beira Grande e Selores, no município de Carrazeda de Ansiães, no Distrito de Bragança.",
+        "Tipo": "património cultural",
         "Localizacao": "Lavandeira, Beira Grande e Selores,Portugal",
         "score": 0.7022619
     },
     {
         "id": "350",
         "Nome": "Igreja de Santa Maria (Loures)",
+        "Descricao": "A Igreja Paroquial de Loures ou Igreja de Santa Maria localiza-se no extremo noroeste da cidade de Loures, no Distrito de Lisboa, em Portugal.\nTrata-se de um templo construído em meados do século XV (no local onde existiu a anterior igreja medieval que, segundo as investigações de Eduardo Brazão, se sabe ter pertencido aos Templários), com bastantes intervenções posteriores (a torre sineira data dos anos finais da Dinastia Filipina e o actual recheio é, na sua larga maioria, datável do século XVIII).\nPossui três naves, assentando os arcos que as sustentam em colunas de ordem toscana, conservando-se ainda numa destas um velho púlpito. Na capela-mor, um retábulo do setecentista abrilhanta esta obra-prima do barroco português.\nNa segunda metade do século XVIII, após o terramoto de 1755, foi votada ao abandono, mas no século seguinte foi sujeita a obras de restauro, tendo sido declarada monumento nacional por decreto de 16 de Junho de 1910.",
+        "Tipo": "igreja património cultural",
         "Localizacao": "Loures Portugal",
         "score": 0.7020317
     },
     {
         "id": "614",
         "Nome": "Capela de São Manços (Évora)",
+        "Descricao": "A Capela de São Manços é um templo católico localizada nas Portas de Moura, freguesia da Sé e São Pedro em Évora, Portugal.\nEsta capela do século XVII apresenta a curiosidade de ser encontrar dentro de uma das torres das Portas de Moura nas muralhas da cidade. No interior destaca-se um retábulo de quatro pequenos painéis pintados a óleo sobre tela com cenas da vida de São Manços: \"Prisão do São Manços\", \"Açoitamento na Coluna\", \"Flagelamento no Cavalete\" e \"São Manços trabalhando na construção de obras públicas perante o pretor Validio\"",
+        "Tipo": "Capela",
         "Estilo": "Barroco",
         "Localizacao": "Évora",
         "score": 0.70186335
@@ -169,6 +218,8 @@
     {
         "id": "644",
         "Nome": "Convento de Santa Clara (Évora)",
+        "Descricao": "O Convento de Santa Clara fica situado entre as Ruas de Serpa Pinto e de Santa Clara, na freguesia de Évora (São Mamede, Sé, São Pedro e Santo Antão), em Évora.\nEsta antiga casa religiosa de freiras Clarissas foi fundada no século XVI, pelo então Bispo de Évora, D.Vasco Perdigão, apresentando algumas características que individualizaram, na época, as diversas casas religiosas alentejanas, como é o caso das pitorescas janelas rendilhadas das torres/mirantes. A igreja apresenta hoje um aspecto barroco (talha dourada e azulejaria do século XVIII), bem como belas pinturas murais, no alto da nave e nos dois coros. O claustro e outras dependências conventuais, como o refeitório e a Sala do Capítulo, mantêm-se mais ou menos intactos.\nDevido à extinção das Ordens Religiosas, o convento encerrou em 9 de Maio de 1903, com a morte da última freira, Maria Ludovina do Carmo. Entrou então na posse do Estado, que nele instalou um Quartel de Infantaria entre 1911 e 1936. A partir desta última data, passou a servir de Escola Industrial e depois Preparatória, tendo então sido alvo de várias campanhas de restauro, que têm mantido o sóbrio aspecto conventual desta vasta construção, albergando hoje a Escola EB 2,3 de Santa Clara.\nO Convento de Santa Clara está classificado como Monumento Nacional desde 1922.",
+        "Tipo": "Convento , Igreja",
         "Estilo": "Barroco",
         "Localizacao": "Évora",
         "score": 0.7017455
@@ -176,12 +227,15 @@
     {
         "id": "1070",
         "Nome": "Igreja de Nossa Senhora do Carmo (Horta)",
+        "Descricao": "A Igreja de Nossa Senhora do Carmo é um templo religioso cristão português localizado no concelho da Horta, na ilha do Faial, no arquipélago dos Açores.",
         "Estilo": "Rococó,Barroco",
         "score": 0.70023537
     },
     {
         "id": "727",
         "Nome": "Capela de São Roque (Machico)",
+        "Descricao": "A Capela de S. Roque é uma capela no extremo oeste de Machico, Madeira, Portugal. Foi construída no século XVIII para substituir a capela em ruínas (de meados do século XV) que aí se encontrava.",
+        "Tipo": "património cultural",
         "Localizacao": "Machico,Portugal",
         "score": 0.69930273
     }

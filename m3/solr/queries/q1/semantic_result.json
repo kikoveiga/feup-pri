@@ -2,60 +2,80 @@
     {
         "id": "1088",
         "Nome": "Igreja de Santa Maria de Meinedo",
+        "Descricao": "A Igreja de Santa Maria de Meinedo, também referida como Igreja Paroquial de Meinedo, Igreja de Santa Maria Maior ou Igreja de Nossa Senhora das Neves, encontra-se localizada em Meinedo, no Município de Lousada, em Portugal.",
+        "Tipo": "património cultural",
         "Localizacao": "Meinedo,Portugal",
         "score": 0.8039816
     },
     {
         "id": "1071",
         "Nome": "Igreja de Nossa Senhora do Carmo (Viana do Castelo)",
+        "Descricao": "A Igreja de Nossa Senhora do Carmo localiza-se na cidade e distrito de Viana do Castelo, em Portugal.",
+        "Tipo": "igreja, património cultural",
         "Localizacao": "Viana do Castelo (Santa Maria Maior e Monserrate) e Meadela, - Portugal",
         "score": 0.79598606
     },
     {
         "id": "1057",
         "Nome": "Igreja de Nossa Senhora da Esperança (Porto)",
+        "Descricao": "A igreja de Nossa Senhora da Esperança situa-se na cidade do Porto, junto ao Jardim de S. Lázaro. Esta igreja é presumivelmente da autoria de Nicolau Nasoni e foi edificada no século XVIII.",
+        "Tipo": "património cultural",
         "Localizacao": "Cedofeita, Santo Ildefonso, Sé, Miragaia, São Nicolau e Vitória,Portugal",
         "score": 0.7931129
     },
     {
         "id": "142",
         "Nome": "Igreja de São Cláudio",
+        "Descricao": "A  Igreja de São Cláudio, o que subsiste do antigo Mosteiro de São Cláudio, localiza-se na freguesia de Nogueira, Meixedo e Vilar de Murteda, município de Viana do Castelo, distrito de Viana do Castelo, em Portugal.\nA  Igreja de São Cláudio está classificada como Monumento Nacional desde 1910.\nO Mosteiro de São Cláudio era masculino, e pertencia à Ordem de São Bento.",
+        "Tipo": "igreja património cultural",
         "Localizacao": "Nogueira, Meixedo e Vilar de Murteda Portugal",
         "score": 0.7905881
     },
     {
         "id": "1119",
         "Nome": "Igreja de São Pedro (Mêda)",
+        "Descricao": "A Igreja de São Pedro, ou Igreja Paroquial de São Pedro de Marialva, está localizada na freguesia de Marialva, no município de Mêda.",
+        "Tipo": "património cultural",
         "Localizacao": "Marialva,Portugal",
         "score": 0.7889026
     },
     {
         "id": "1180",
         "Nome": "Igreja paroquial de Santiago de Bougado",
+        "Descricao": "A Igreja paroquial de Santiago de Bougado, ou Igreja de São Tiago, situa-se na freguesia de Bougado (São Martinho e Santiago), no município de Trofa, em Portugal.",
+        "Tipo": "património cultural",
         "Localizacao": "Bougado (São Martinho e Santiago),Portugal",
         "score": 0.78750455
     },
     {
         "id": "449",
         "Nome": "Igreja de Santa Maria de Airães",
+        "Descricao": "A Igreja de Santa Maria de Airães está situada no lugar de Mosteiro, freguesia de Airães, município de Felgueiras.\nNas Inquirições de 1221 a igreja surge como \"ecclesia de Araes\", no julgado de Felgueiras.\nFoi declarada Monumento Nacional pelo Decreto 129/77 de 29 de Setembro.\nEsta Igreja integra a Rota do Românico.",
+        "Tipo": "igreja património cultural",
         "Localizacao": "Airães Portugal",
         "score": 0.78644943
     },
     {
         "id": "1067",
         "Nome": "Igreja de Nossa Senhora dos Mártires",
+        "Descricao": "A Igreja de Nossa Senhora dos Mártires, também designada por Igreja Matriz de Constância ou Igreja de São Julião, situa-se na parte mais alta da freguesia e da vila de Constância (Portugal), em Portugal.",
+        "Tipo": "património cultural",
         "Localizacao": "Constância,Portugal",
         "score": 0.7826165
     },
     {
         "id": "452",
         "Nome": "Igreja de Santo Isidoro de Canaveses",
+        "Descricao": "A Igreja de Santo Isidoro de Canaveses é uma igreja românica situada em Santo Isidoro, freguesia de Santo Isidoro e Livração, no município de Marco de Canaveses em Portugal.\nEm 2013 foi classificada como monumento nacional e está integrada na Rota do Românico.",
+        "Tipo": "igreja património cultural",
         "Localizacao": "Santo Isidoro e Livração Portugal",
         "score": 0.78136075
     },
     {
         "id": "657",
         "Nome": "Igreja dos Lóios",
+        "Descricao": "A Igreja dos Lóios é uma igreja situada na freguesia de Sé e São Pedro, Évora, Portugal anexa ao Convento dos Lóios. Foi classificada em 1910 como Monumento Nacional.",
+        "Tipo": "Igreja",
         "Estilo": "Gótico",
         "Localizacao": "Évora",
         "score": 0.7751293
@@ -63,16 +83,20 @@
     {
         "id": "1116",
         "Nome": "Igreja de São Pedro (Almargem do Bispo)",
+        "Descricao": "A Igreja de Almargem do Bispo, também conhecida por Igreja de São Pedro, locaiza-se em Almargem do Bispo, no Concelho de Sintra, Portugal.",
         "score": 0.7716541
     },
     {
         "id": "1089",
         "Nome": "Igreja de Santa Maria de Sobretâmega",
+        "Descricao": "A Igreja de Santa Maria de Sobretâmega, também referida como Igreja de Santa Maria sobre o Tâmega e Igreja de Santa Maria, é uma igreja, românica situada em Sobretâmega, no município de Marco de Canaveses em Portugal. Em 1971 foi classificada como imóvel de interesse público, em conjunto com a Igreja de São Nicolau de Canaveses, e está integrada na Rota do Românico.",
         "score": 0.7697159
     },
     {
         "id": "1082",
         "Nome": "Igreja de Santa Maria (Estremoz)",
+        "Descricao": "A Igreja de Santa Maria, também referida como Igreja Matriz de Estremoz ou Igreja Paroquial de Santa Maria de Estremoz, situa-se na freguesia de Estremoz (Santa Maria e Santo André), no Município de Estremoz, Distrito de Évora, Portugal.",
+        "Tipo": "património cultural",
         "Estilo": "Maneirista,.",
         "Localizacao": "Santa Maria",
         "score": 0.7692938
@@ -80,6 +104,8 @@
     {
         "id": "1587",
         "Nome": "Igreja de Santa Maria de Sobretâmega",
+        "Descricao": "De Comboio Linha do Douro (Comboios Urbanos Porto-Marco ou Comboios Regionais Porto-Régua/Pocinho), com saída na estação de Marco de Canaveses: Igreja de Sobretâmega a 3 km. Consulte aqui todos os horários e preços. De Carro Se vem do Norte de Portugal através da A28 (Porto), da A3 (Porto), da A24 (Chaves/Viseu), da A7 (Póvoa de Varzim) ou da A11 (Esposende/Marco de Canaveses) siga na direção da A4 (Bragança/Matosinhos). Saia para o Marco de Canaveses. Antes de cruzar o rio Tâmega encontrará a sinalização da Igreja de Sobretâmega. A partir do Porto opte pela A4 (Vila Real). Saia para o Marco de Canaveses. Se vem do Centro ou Sul de Portugal pela A1 (Porto) ou pela A29 (V.N. Gaia) opte pela A41 CREP (Vila Real). Escolha depois a A4 (Vila Real) e saia para o Marco de Canaveses. Se já se encontra na cidade do Marco de Canaveses, tome a variante à estrada N211 e cruze o rio Tâmega para alcançar a Igreja de Sobretâmega.",
+        "Tipo": "Igreja",
         "Estilo": "Românico",
         "Localizacao": "Rua da Igreja, Sobretâmega, Marco de Canaveses, Porto",
         "score": 0.7686377
@@ -87,6 +113,8 @@
     {
         "id": "1600",
         "Nome": "Igreja de São Nicolau de Canaveses",
+        "Descricao": "De Comboio Linha do Douro (Comboios Urbanos Porto-Marco ou Comboios Regionais Porto-Régua/Pocinho), com saída na estação de Marco de Canaveses: Igreja de São Nicolau a 3 km. Consulte aqui todos os horários e preços. De Carro Se vem do Norte de Portugal através da A28 (Porto), da A3 (Porto), da A24 (Chaves/Viseu), da A7 (Póvoa de Varzim) ou da A11 (Esposende/Marco de Canaveses) siga na direção da A4 (Bragança/Matosinhos). Saia para o Marco de Canaveses. Logo depois de cruzar o rio Tâmega encontrará a sinalização da Igreja de São Nicolau. A partir do Porto opte pela A4 (Vila Real). Saia para o Marco de Canaveses. Se vem do Centro ou Sul de Portugal pela A1 (Porto) ou pela A29 (V.N. Gaia) opte pela A41 CREP (Vila Real). Escolha depois a A4 (Vila Real) e saia para o Marco de Canaveses. Se já se encontra na cidade do Marco de Canaveses, rume à margem do rio Tâmega e à Igreja de São Nicolau.",
+        "Tipo": "Igreja",
         "Estilo": "Românico",
         "Localizacao": "Rua de S. Nicolau, São Nicolau, Marco de Canaveses, Porto",
         "score": 0.76778376
@@ -94,6 +122,7 @@
     {
         "id": "466",
         "Nome": "Igreja do Carmo (Porto)",
+        "Descricao": "A Igreja do Carmo ou Igreja da Venerável Ordem Terceira de Nossa Senhora do Carmo, localiza-se no cruzamento entre a Praça de Carlos Alberto e a Rua do Carmo, nas proximidades da Igreja e Torre dos Clérigos, na freguesia portuguesa da Vitória  cidade do Porto.\nDe estilo barroco/rococó, foi construída na segunda metade do século XVIII, entre 1756 e 1768, pela Ordem Terceira do Carmo, sendo o projecto do arquitecto José Figueiredo Seixas. A construção do hospital começou mais tarde, ficando concluído em 1801.\nEsta igreja foi edificada num terreno contíguo à Igreja dos Carmelitas, do lado oeste, cedido à Ordem em 1752. Por não ser então permitida a construção de duas Igrejas juntas, foi edificada entre ambas a chamada Casa Escondida do Porto que separa as duas igrejas e tem pouco mais de 1 metro e meio de largura.\nFoi classificada como Monumento Nacional a 3 de Maio de 2013, em conjunto com a Igreja dos Carmelitas adjacente.\nEm anos recentes a Ordem do Carmo procurou abrir o seu vasto património à visita do público. Inicialmente abriu a \"Casa Escondida\", considerada por guias locais como a \"Casa mais estreita da cidade do Porto\", e uma das mais estreitas do país. Foi abrindo pouco a pouco novos espaços do seu recheio, estando hoje em dia disponível a visita ao Circuito Turístico da Ordem do Carmo. Por uma pequena quantia (3,5 euros) realiza-se através da Casa Escondida uma visita à Casa, Igreja, Catacumbas (de pequenas dimensões), Salão Nobre, Sala dos Paramentos e Sacristia, permitindo um vislumbre ao rico património móvel e imóvel da Ordem, que inclui pinturas, esculturas, vestes litúrgicas e relíquias. Parte do bilhete apoia o restauro de bens patrimoniais da Ordem. Esta visita é possível de Terça a Domingo entre as 10 e as 18 horas; às segundas inicia-se às 12 e termina às 18. Não é possível a realização do circuito completo sempre que há missa (todos os dias às 9:30 e 15 horas), rosário (todos os dias às 14:30)  ou casamento (esporadicamente e sob marcação), mantendo-se nessas alturas a possibilidade de visitar a Casa Escondida pelo preço de 2 euros por pessoa.\nRealizam também visitas guiadas mediante marcação.\nA fachada apresenta, em lugar de relevo, Santa Ana, a quem a Ordem Carmelitana professava grande devoção, porque, segundo as crónicas, apareceu a um grupo de Carmelitas dos primeiros tempos. É também a patrona desta igreja. Dois nichos que ladeiam a porta de entrada albergam as imagens dos profetas Elias e Eliseu, os dois modelos mais representativos da Ordem. No corpo superior da frontaria, coruchéus e esculturas das figuras dos quatro Evangelistas, revelando influências do estilo “barroco Italiano” criado por Nicolau Nasoni.\nA fachada lateral da Igreja do Carmo está revestida por um grandioso painel de azulejos, representando cenas alusivas à fundação da Ordem Carmelita e ao Monte Carmelo. A composição foi desenhada por Silvestre Silvestri, pintada por Carlos Branco e executada nas fábricas do Senhor do Além e da Torrinha, em Vila Nova de Gaia, e datados de 1912.\nNo interior da Igreja do Carmo, destaca-se a excelente talha dourada nas capelas laterais e no altar-mor, a estatuária e diversas pinturas a óleo.\nO seu programa iconográfico relaciona-se com a Paixão, um dos temas característicos dos Carmelitas. Neste caso, as imagens esta dispostas segundo um percurso descendente, a partir do lado da Epístola: Agonia no Horto, Prisão do Senhor, Flagelação, Senhor da Cana Verde, Ecce Homo, Senhor a Caminho do Calvário. Conclui na Crucificação: cruz do altar-mor e com a pintura da Ressurreição de Cristo, no tecto.",
         "Estilo": "Rococó",
         "Localizacao": "Porto",
         "score": 0.7646786
@@ -101,25 +130,32 @@
     {
         "id": "454",
         "Nome": "Igreja de São Francisco (Porto)",
+        "Tipo": "Igreja e Convento",
         "Estilo": "Gótico",
         "Localizacao": "Porto",
+        "Descricao": "A Igreja de São Francisco é uma igreja gótica da cidade do Porto, situada na freguesia de São Nicolau em pleno Centro histórico do Porto. A construção iniciou-se no século XIV como parte de um convento Franciscano. É notável pelo seu conjunto de talha dourada barroca do século XVIII. Anexa à sua entrada frontal, situa-se a Igreja da Venerável Ordem Terceira de São Francisco.\nOs frades Franciscanos estabeleceram-se no Porto no início do século XIII, tendo-lhes sido atribuído em 1233 um terreno para a construção da sua Igreja. Querelas com o bispo do Porto a respeito dos limites do couto e resistência das autoridades religiosas instaladas fizeram com que durante o século XIV as obras fossem sendo sucessivamente adiadas. A divergência obrigou à intervenção em 1244 do Papa Inocêncio V, que através da Bulla Doelentis accepimus confirma a posse do terreno à ordem Franciscana. Iniciou-se então a edificação das fundações do convento anexo e de uma igreja primitiva, mais modesta e de nave única.\nEm 1383 iniciam-se as obras da igreja actual, impulsionadas por decreto de D. Fernando, especial protector dos Franciscanos. A construção foi concluída em 1410. A nova igreja representou uma ampliação significativa do espaço anterior, agora com três naves em cinco tramos, transepto saliente e cabeceira tripartida cintada por contrafortes.\nO modelo planimétrico adoptado é similar ao já ensaiado em inúmeros templos portugueses a partir do Gótico mendicante do século XII. Uma característica regional importante é a presença de motivos lacrimais decorados com esferas na parte superior da capela-mor, de influência galega. A estrutura da igreja não sofreu alterações significativas, sendo o melhor exemplo de arquitectura gótica no Porto.\nDurante o reinado de D. João I foi  realizada uma pintura mural referente à Senhora da Rosa, atribuída a António Florentim, uma das mais antigas pinturas murais intactas no país.\nDurante os séculos XV e XVI várias famílias proeminentes do Porto tornam-se patronos dos Franciscanos, financiando várias das capelas laterais. Um dos exemplos notáveis é a capela de São João Baptista, construída na década de 1530 para a família Carneiro, e desenhada por João de Castilho com motivos manuelinos.\nA principal campanha artística foi levada a cabo na primeira metade do século XVIII, quando a maior parte das superfícies interiores, incluindo paredes, colunas, capelas laterais e telhado, foram revestidas com talha dourada barroca.\nEm 1833, as instalações conventuais anexas à igreja são destruídas por um incêndio. O fogo teve origem num tiroteio das tropas Miguelistas no final do cerco do Porto. Após o incêndio, o claustro em ruínas foi arrasado para a construção da Bolsa Comercial do Porto, um exemplo notável da arquitectura neoclássica do século XIX. Com a extinção das ordens religiosas em 1834, a Igreja serviu de armazém da Alfândega até 1839.\nEm 1910 é classificada como Monumento Nacional.\nA fachada principal da igreja contém uma rosácea gótica, ricamente elaborada e decorada. É a única decoração original sobrevivente, sendo o portal um trabalho barroco organizado em dois níveis, onde uma estátua de São Francisco de Assis é suportada por colunas salomónicas.\nO portal Sul, orientado para o rio, é uma peça gótica. É proeminente em relação à fachada e possui uma gablete decorada com um pentagrama. A abertura é composta por uma série de arquivoltas decoradas com altos-relevos de influência mudéjar.\nA igreja possui três naves com cinco tramos, sendo a nave principal maior em relação às laterais. O lado nascente possui um transepto e uma ábside com três capelas. O cruzeiro é iluminado através das janelas monumentais dos braços do transepto e da capela-mor, assim como por uma rosácea de pequena dimensão sobre a capela-mor com traceria em forma de pentagrama.\nAo longo do século XVII são construídos vários retábulos. Em 1595 é executado o retábulo de São Brás, por Manuel da Ponte. Entre 1612 e 1615 é executado o retábulo da capela de Nossa Senhora dos Anjos por Francisco Moreira, pintado e dourado pelo pintor Inácio Ferraz de Figueiredo. Em 1680 é executado o douramento do retábulo da confraria de São Brás e São José por Manuel Ferreira.\nNo início do século XVIII, todo o interior sofre uma remodelação profunda através da construção dos principais retábulos de talha dourada, que caracterizam o interior que pode ser hoje observado. A maioria destas intervenções substituiu retábulos dos séculos anteriores.\nO retábulo na Capela de Nossa Senhora da Conceição, foi inteiramente reformulado entre 1718 e 1721 sobre uma preexistência. Trata-se de uma obra da autoria de Filipe da Silva e António Gomes e dedicado à Árvore de Jesse. Constitui o mais exuberante exemplo desta temática em Portugal, possuindo também intervenções do escultor Manuel Carneiro Adão.\nEm 1724 é realizado o retábulo da Capela de Santo António  pelo entalhador Luís Pereira da Costa. Entre 1740 e 1744 são realizados os retábulos de Nossa Senhora do Socorro e Nossa Senhora da Rosa, entalhados por Manuel da Costa Andrade segundo desenho de Francisco do Couto e Azevedo. Entre 1750 e 1751 são realizados os retábulos da Anunciação da Nossa Senhora, de Nossa Senhora da Encarnação e dos Santos Mártires de Marrocos por Manuel Pereira da Costa Noronha. Entre 1764 e 1765 é realizado o retábulo de Nossa Senhora da Soledade pelo entalhador Francisco Pereira Campanhã.\n«DGPC - Monumentos». www.monumentos.pt",
         "score": 0.7632781
     },
     {
         "id": "141",
         "Nome": "Igreja de Santa Cruz (Viana do Castelo)",
+        "Descricao": "A Igreja de Santa Cruz ou Igreja de Santa Cruz do Convento de São Domingos ou Convento de São Domingos ou Igreja Paroquial de São Domingos é uma igreja de Viana do Castelo.\nA igreja fazia parte do Convento de São Domingos, mandado edificar por Bartolomeu dos Mártires em 1560. O conjunto monástico seria concluído em 1571.\nEstá localizada no Largo de São Domingos, no centro da cidade.\nNa igreja está localizado o túmulo de São Bartolomeu dos Mártires.\nEstá classificada como Monumento Nacional desde 1910.\nEm 17 de junho de 2020 a Conferência Episcopal Portuguesa aprovou a classificação como basílica menor.\nEm 2021, a ala de Nossa Senhora do Rosário começou a ser recuperada para acolher o Centro de Interpretação de São Bartolomeu dos Mártires.",
         "Localizacao": "Viana do Castelo",
         "score": 0.7621473
     },
     {
         "id": "1148",
         "Nome": "Igreja do Salvador de Lufrei",
+        "Descricao": "A Igreja do Salvador de Lufrei, também referida como Mosteiro de Lufrei, Igreja Paroquial de Lufrei e Igreja do Divino Salvador é uma igreja românica situada em Lufrei, no município de Amarante em Portugal. Em 1971 foi classificada como Imóvel de Interesse Público e está integrada na Rota do Românico.",
+        "Tipo": "património cultural",
         "Localizacao": "Lufrei,Portugal",
         "score": 0.7619221
     },
     {
         "id": "217",
         "Nome": "Igreja Matriz de Estômbar",
+        "Descricao": "A Igreja Matriz de Estômbar, ou Igreja de São Tiago, é um Monumento Nacional  edificado no século XVI em honra de São Tiago.\nSitua-se no centro de Estômbar, na freguesia de Estômbar e Parchal, município de Lagoa.\nFoi reconstruída no século XVIII. Dentro da igreja, na Capela-Mor, encontram-se azulejos pintados em 1719.[carece de fontes?]",
+        "Tipo": "igreja património cultural",
         "Estilo": "Estilo manuelino",
         "Localizacao": "Estômbar e Parchal Portugal",
         "score": 0.76167715
@@ -127,12 +163,16 @@
     {
         "id": "569",
         "Nome": "Igreja Matriz de Santiago do Cacém",
+        "Descricao": "A Igreja Matriz de Santiago do Cacém, também referida como Igreja Paroquial de Santiago do Cacém ou Igreja de São Tiago, é uma igreja do século XIII, da invocação de Santiago Maior, situada em Santiago do Cacém.\nA Igreja de São Tiago está classificada como Monumento Nacional desde 1910.\nA igreja, anexa ao castelo de Santiago do Cacém, foi fundada, no século XIII, pela Ordem de Santiago. Ao longo dos anos sofreu várias reconstruções.\nDestacam-se o pórtico lateral, ogival, em estilo romano-gótico, apresenta capitéis com decoração zoomórfica, a abóbada do coro alto e o alto relevo com a representação de Santiago.\nSem culto permanente, a igreja foi salva da ruína pelo Departamento do Património Histórico e Artístico da Diocese de Beja, que promoveu uma vasta campanha de obras de reabilitação, levadas a cabo com a colaboração da Direcção-Geral dos Edifícios e Monumentos Nacionais (1993-1996), e assegurou depois a sua manutenção e abertura regular ao público, sob os auspícios de uma Comissão de Salvaguarda, fundada em 1993, que actua em cooperação com o Município.\nIntegra a Rede de Museus da Diocese de Beja.\nA igreja encontra-se classificada como monumento nacional.\nA igreja alberga o Tesouro da Colegiada de Santiago, núcleo primordial do Museu de Arte Sacra de Santiago do Cacém, fundado em 2002.",
+        "Tipo": "igreja património cultural",
         "Localizacao": "Santiago do Cacém, Santa Cruz e São Bartolomeu da Serra Portugal",
         "score": 0.75983465
     },
     {
         "id": "1586",
         "Nome": "Igreja de Santa Maria de Meinedo",
+        "Descricao": "De Comboio Linha do Douro (Comboios Urbanos Porto-Marco ) com saída na estação de Meinedo: Igreja de Meinedo a 0,1 km. Consulte aqui todos os horários e preços. De Carro Se vem do Norte de Portugal através da A28 (Porto), da A3 (Porto), da A24 (Chaves/Viseu), da A7 (Póvoa de Varzim) ou da A4 (Bragança/Matosinhos) siga na direção de Felgueiras pela A11 (Esposende/Marco de Canaveses). Saia no nó de Caíde da A11, seguindo a sinalização da Igreja de Meinedo. A partir do Porto opte pela A4 (Vila Real). Saia em Penafiel/Lousada, seguindo depois para o centro de Penafiel. Siga a direção do Mosteiro de Bustelo, pela N320, até encontrar a sinalização da Igreja de Meinedo. Se vem do Centro ou Sul de Portugal pela A1 (Porto) ou pela A29 (V.N. Gaia) opte pela A41 CREP. Depois escolha a A4 (Vila Real) e saia em Penafiel/Lousada, seguindo depois para o centro de Penafiel. Siga a direção do Mosteiro de Bustelo, pela N320, até encontrar a sinalização da Igreja de Meinedo. Se já se encontra na vila de Lousada, siga a indicação da Igreja de Meinedo, pela estrada N320.",
+        "Tipo": "Igreja",
         "Estilo": "Românico",
         "Localizacao": "Rua da Igreja, 137, Meinedo, Lousada, Porto",
         "score": 0.75962996
@@ -140,24 +180,32 @@
     {
         "id": "468",
         "Nome": "Igreja do Salvador de Cabeça Santa",
+        "Descricao": "A Igreja do Salvador de Cabeça Santa, também designada por Igreja Paroquial de Cabeça Santa ou Igreja do Divino Salvador, está situada na freguesia de Cabeça Santa ou da Gândara, no município de Penafiel.\nFoi declarada Monumento Nacional pelo Dc. nº. 14 425, DG 228 de 15 de Outubro de 1927, ZEP, DG 188 de 15 de Agosto de 1951.\nEsta igreja integra a Rota do Românico do Vale do Sousa.",
+        "Tipo": "igreja património cultural",
         "Localizacao": "Cabeça Santa Portugal",
         "score": 0.75910854
     },
     {
         "id": "1097",
         "Nome": "Igreja de Santo André de Telões",
+        "Descricao": "A Igreja de Santo André de Telões, também referida como Mosteiro de Telões, Igreja Paroquial de Telões e Igreja de Santo André, é uma igreja românica situada em Telões, no município de Amarante em Portugal.",
+        "Tipo": "património cultural",
         "Localizacao": "Telões,Portugal",
         "score": 0.758491
     },
     {
         "id": "458",
         "Nome": "Igreja de São Martinho de Soalhães",
+        "Descricao": "A Igreja de São Martinho de Soalhães é uma igreja situada em São Martinho de Soalhães, freguesia de Soalhães, no município de Marco de Canaveses, em Portugal.\nEm 1997 foi classificada como monumento nacional, tendo em 1977 recebido esta classificação os seus elementos românicos. Integra a Rota do Românico.",
+        "Tipo": "igreja património cultural",
         "Localizacao": "Soalhães Portugal",
         "score": 0.75829077
     },
     {
         "id": "1046",
         "Nome": "Igreja de Mondrões",
+        "Descricao": "A Igreja de Mondrões, ou Igreja de São Tiago, está situada na freguesia de Mondrões, no município de Vila Real, no Distrito de Vila Real, em Portugal.",
+        "Tipo": "património cultural",
         "Estilo": "Estilo manuelino",
         "Localizacao": "Mondrões,Portugal",
         "score": 0.7580658
@@ -165,12 +213,16 @@
     {
         "id": "1094",
         "Nome": "Igreja de Santiago de Antas",
+        "Descricao": "A Igreja de Santiago de Antas localiza-se na freguesia de Antas, no município de Vila Nova de Famalicão, distrito de Braga, em Portugal.",
+        "Tipo": "património cultural",
         "Localizacao": "Antas e Abade de Vermoim,Portugal",
         "score": 0.75751483
     },
     {
         "id": "1592",
         "Nome": "Igreja de Santo Isidoro de Canaveses",
+        "Descricao": "De Comboio Linha do Douro (Comboios Urbanos Porto-Marco ou Comboios Regionais Porto-Régua/Pocinho), com saída na estação da Livração: Igreja de Santo Isidoro a 1,6 km. Consulte aqui todos os horários e preços. De Carro Se vem do Norte de Portugal através da A28 (Porto), da A3 (Porto), da A24 (Chaves/Viseu), da A7 (Póvoa de Varzim) ou da A11 (Esposende/Marco de Canaveses) siga na direção da A4 (Bragança/Matosinhos). Saia para o Marco de Canaveses. Rume a Santo Isidoro, seguindo a sinalização da Rota do Românico. A partir do Porto opte pela A4 (Vila Real). Saia para o Marco de Canaveses. Siga a sinalização da Igreja de Santo Isidoro. Se vem do Centro ou Sul de Portugal pela A1 (Porto) ou pela A29 (V.N. Gaia) opte pela A41 CREP (Vila Real). Escolha depois a A4 (Vila Real) e saia para o Marco de Canaveses. Siga a sinalização da Igreja de Santo Isidoro. Se já se encontra na cidade do Marco de Canaveses, tome a variante à estrada N211 e cruze o rio Tâmega. Siga a sinalização da Igreja de Sobretâmega e depois a da Igreja de Santo Isidoro.",
+        "Tipo": "Igreja",
         "Estilo": "Românico",
         "Localizacao": "Igreja, Santo Isidoro, Marco de Canaveses, Porto",
         "score": 0.7571291
@@ -178,6 +230,8 @@
     {
         "id": "1095",
         "Nome": "Igreja de Santiago Maior (Camarate)",
+        "Descricao": "A  Igreja de Santiago Maior, Igreja Paroquial de Camarate, Igreja de São Tiago ou Igreja Matriz Paroquial de Santiago Maior de Camarate localiza-se na confluência da Praça 1.º de Maio com as Ruas Avelino Salgado de Oliveira e Guilherme Gomes Fernandes, no centro da vila de Camarate, Município de Loures, sendo em torno desta edificação que se procedeu ao crescimento urbano da povoação ao longo dos séculos.",
+        "Tipo": "património cultural",
         "Estilo": "Barroco",
         "Localizacao": "Camarate",
         "score": 0.7558285
@@ -185,6 +239,8 @@
     {
         "id": "1111",
         "Nome": "Igreja de São Martinho de Lordelo",
+        "Descricao": "A Igreja de São Martinho de Lordelo ou Igreja de Lordelo do Ouro, localiza-se na freguesia de Lordelo do Ouro, na cidade do Porto, em Portugal.",
+        "Tipo": "património cultural",
         "Localizacao": "Lordelo do Ouro e Massarelos,Portugal",
         "score": 0.7554675
     }
